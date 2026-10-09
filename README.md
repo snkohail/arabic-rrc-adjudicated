@@ -5,8 +5,7 @@ annotation allows multiple roles on one span and nested spans.
 
 The repo contains the code, configs, the split and sentence-grid manifests (case ids,
 offsets and hashes only), aggregate results, and the per-item test predictions of every
-system reported in the paper. It does not contain judgment text or annotations — the
-corpus is confidential and cannot be shared.
+system reported in the paper. It does not contain judgment text or annotations.
 
 ## Setup
 
