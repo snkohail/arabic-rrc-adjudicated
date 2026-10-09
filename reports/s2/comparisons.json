@@ -1,0 +1,172 @@
+{
+ "B1 \u2212 B0": {
+  "a": 0.7175,
+  "b": 0.0483,
+  "diff_point": 0.6692,
+  "diff_ci_low": 0.59,
+  "diff_ci_high": 0.7281,
+  "n_replicates": 5000,
+  "seed": 13,
+  "n_documents": 30
+ },
+ "B2 \u2212 B1": {
+  "a": 0.7218,
+  "b": 0.7175,
+  "diff_point": 0.0043,
+  "diff_ci_low": -0.0314,
+  "diff_ci_high": 0.0473,
+  "n_replicates": 5000,
+  "seed": 13,
+  "n_documents": 30
+ },
+ "M1 seed 13 \u2212 B1": {
+  "a": 0.6978,
+  "b": 0.7175,
+  "diff_point": -0.0197,
+  "diff_ci_low": -0.0578,
+  "diff_ci_high": 0.0229,
+  "n_replicates": 5000,
+  "seed": 13,
+  "n_documents": 30
+ },
+ "M1 seed 13 \u2212 B2": {
+  "a": 0.6978,
+  "b": 0.7218,
+  "diff_point": -0.024,
+  "diff_ci_low": -0.0767,
+  "diff_ci_high": 0.0118,
+  "n_replicates": 5000,
+  "seed": 13,
+  "n_documents": 30
+ },
+ "M1 seed 37 \u2212 B1": {
+  "a": 0.7177,
+  "b": 0.7175,
+  "diff_point": 0.0002,
+  "diff_ci_low": -0.0342,
+  "diff_ci_high": 0.0442,
+  "n_replicates": 5000,
+  "seed": 13,
+  "n_documents": 30
+ },
+ "M1 seed 37 \u2212 B2": {
+  "a": 0.7177,
+  "b": 0.7218,
+  "diff_point": -0.0041,
+  "diff_ci_low": -0.043,
+  "diff_ci_high": 0.0277,
+  "n_replicates": 5000,
+  "seed": 13,
+  "n_documents": 30
+ },
+ "M1 seed 73 \u2212 B1": {
+  "a": 0.7162,
+  "b": 0.7175,
+  "diff_point": -0.0013,
+  "diff_ci_low": -0.0352,
+  "diff_ci_high": 0.0386,
+  "n_replicates": 5000,
+  "seed": 13,
+  "n_documents": 30
+ },
+ "M1 seed 73 \u2212 B2": {
+  "a": 0.7162,
+  "b": 0.7218,
+  "diff_point": -0.0056,
+  "diff_ci_low": -0.0539,
+  "diff_ci_high": 0.0304,
+  "n_replicates": 5000,
+  "seed": 13,
+  "n_documents": 30
+ },
+ "M2 seed 13 \u2212 B1": {
+  "a": 0.7178,
+  "b": 0.7175,
+  "diff_point": 0.0003,
+  "diff_ci_low": -0.0295,
+  "diff_ci_high": 0.0445,
+  "n_replicates": 5000,
+  "seed": 13,
+  "n_documents": 30
+ },
+ "M2 seed 13 \u2212 B2": {
+  "a": 0.7178,
+  "b": 0.7218,
+  "diff_point": -0.0041,
+  "diff_ci_low": -0.038,
+  "diff_ci_high": 0.0273,
+  "n_replicates": 5000,
+  "seed": 13,
+  "n_documents": 30
+ },
+ "M2 seed 37 \u2212 B1": {
+  "a": 0.7095,
+  "b": 0.7175,
+  "diff_point": -0.008,
+  "diff_ci_low": -0.0323,
+  "diff_ci_high": 0.0229,
+  "n_replicates": 5000,
+  "seed": 13,
+  "n_documents": 30
+ },
+ "M2 seed 37 \u2212 B2": {
+  "a": 0.7095,
+  "b": 0.7218,
+  "diff_point": -0.0123,
+  "diff_ci_low": -0.0514,
+  "diff_ci_high": 0.0181,
+  "n_replicates": 5000,
+  "seed": 13,
+  "n_documents": 30
+ },
+ "M2 seed 73 \u2212 B1": {
+  "a": 0.7167,
+  "b": 0.7175,
+  "diff_point": -0.0008,
+  "diff_ci_low": -0.0264,
+  "diff_ci_high": 0.0291,
+  "n_replicates": 5000,
+  "seed": 13,
+  "n_documents": 30
+ },
+ "M2 seed 73 \u2212 B2": {
+  "a": 0.7167,
+  "b": 0.7218,
+  "diff_point": -0.0051,
+  "diff_ci_low": -0.0459,
+  "diff_ci_high": 0.0238,
+  "n_replicates": 5000,
+  "seed": 13,
+  "n_documents": 30
+ },
+ "M1 \u2212 M2 seed 13": {
+  "a": 0.6978,
+  "b": 0.7178,
+  "diff_point": -0.02,
+  "diff_ci_low": -0.0607,
+  "diff_ci_high": 0.005,
+  "n_replicates": 5000,
+  "seed": 13,
+  "n_documents": 30
+ },
+ "M1 \u2212 M2 seed 37": {
+  "a": 0.7177,
+  "b": 0.7095,
+  "diff_point": 0.0082,
+  "diff_ci_low": -0.0185,
+  "diff_ci_high": 0.0356,
+  "n_replicates": 5000,
+  "seed": 13,
+  "n_documents": 30
+ },
+ "M1 \u2212 M2 seed 73": {
+  "a": 0.7162,
+  "b": 0.7167,
+  "diff_point": -0.0005,
+  "diff_ci_low": -0.029,
+  "diff_ci_high": 0.0236,
+  "n_replicates": 5000,
+  "seed": 13,
+  "n_documents": 30
+ }
+}
