@@ -1,0 +1,44 @@
+{
+ "threshold": 0.3,
+ "note": "secondary/reporting diagnostics computed from the frozen B0 probabilities; no result altered",
+ "val": {
+  "micro_f1": 0.7311,
+  "cardinality": {
+   "overall": {
+    "n": 1359,
+    "gold_cardinality": 1.1207,
+    "pred_cardinality": 1.2303
+   },
+   "single_role": {
+    "n": 1203,
+    "gold_cardinality": 1.0,
+    "pred_cardinality": 1.197
+   },
+   "multi_role": {
+    "n": 156,
+    "gold_cardinality": 2.0513,
+    "pred_cardinality": 1.4872
+   }
+  }
+ },
+ "test": {
+  "micro_f1": 0.7383,
+  "cardinality": {
+   "overall": {
+    "n": 1846,
+    "gold_cardinality": 1.091,
+    "pred_cardinality": 1.1587
+   },
+   "single_role": {
+    "n": 1681,
+    "gold_cardinality": 1.0,
+    "pred_cardinality": 1.1374
+   },
+   "multi_role": {
+    "n": 165,
+    "gold_cardinality": 2.0182,
+    "pred_cardinality": 1.3758
+   }
+  }
+ }
+}
