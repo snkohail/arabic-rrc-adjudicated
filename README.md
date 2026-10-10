@@ -5,7 +5,7 @@ annotation allows multiple roles on one span and nested spans.
 
 The repo contains the code, configs, the split and sentence-grid manifests (case ids,
 offsets and hashes only), aggregate results, and the per-item test predictions of every
-system reported in the paper. It does not contain judgment text or annotations.
+system reported in the paper. 
 
 ## Setup
 
@@ -48,7 +48,7 @@ commands that refuse to overwrite them.
 Without the confidential corpus you can still recompute every reported table from
 `predictions/` + `splits/`, and run the mock example below.
 
-## Mock example
+## Example
 
 `examples/mock/` holds four short synthetic judgments (invented text, not from the corpus)
 so the loader, validator, projection and audit renderer can run without real data:
@@ -70,9 +70,8 @@ reports/      aggregate results (counts and scores only, no text)
 predictions/  per-item test predictions (no text)
 scripts/      run scripts
 tests/        pytest (unit tests need no data; integration tests skip without RRC_ANNOTATION_ROOT)
-docs/         decision log, artifact checksums, audit protocol
 ```
 
 ## License
 
-MIT, see `LICENSE`. Citation info in `CITATION.cff`.
+MIT, see `LICENSE`.
