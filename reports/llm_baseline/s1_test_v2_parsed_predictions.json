@@ -1,0 +1,13291 @@
+[
+{
+"id": "C0006:2-347",
+"pred": [
+"PREAMBLE",
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0006:351-546",
+"pred": [],
+"truncated_input": false
+},
+{
+"id": "C0006:550-923",
+"pred": [
+"FACTS",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0006:927-1214",
+"pred": [
+"FACTS",
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0006:1218-1292",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0006:1296-1486",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0006:1490-2015",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"ANALYSIS"
+],
+"truncated_input": false
+},
+{
+"id": "C0006:2019-2133",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0006:2137-2379",
+"pred": [
+"FACTS",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0006:2383-2570",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0006:2572-2843",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0006:2847-2975",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0006:2979-3659",
+"pred": [
+"PREAMBLE",
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0006:3663-3857",
+"pred": [],
+"truncated_input": false
+},
+{
+"id": "C0006:3861-4232",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0006:4236-4521",
+"pred": [
+"FACTS",
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0006:4525-4599",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0006:4603-4802",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0006:4806-5329",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"ANALYSIS"
+],
+"truncated_input": false
+},
+{
+"id": "C0006:5333-5447",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0006:5451-5693",
+"pred": [
+"FACTS",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0006:5497-5598",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0006:5697-5942",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0006:5946-6217",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0006:6221-6349",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0006:6355-6596",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0006:6598-6828",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0006:6832-7030",
+"pred": [],
+"truncated_input": false
+},
+{
+"id": "C0006:7034-7338",
+"pred": [
+"FACTS",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0006:7342-7472",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0006:7478-7638",
+"pred": [
+"FACTS",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0006:7642-7739",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0006:7743-7996",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0006:8000-8169",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0006:8173-8653",
+"pred": [
+"PREAMBLE",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0006:8657-8893",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0006:8897-9095",
+"pred": [],
+"truncated_input": false
+},
+{
+"id": "C0006:9099-9403",
+"pred": [
+"FACTS",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0006:9407-9545",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0006:9549-9709",
+"pred": [
+"FACTS",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0006:9713-9810",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0006:9814-10066",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0006:10070-10239",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0006:10243-10373",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:44-162",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:164-207",
+"pred": [],
+"truncated_input": false
+},
+{
+"id": "C0019:209-255",
+"pred": [],
+"truncated_input": false
+},
+{
+"id": "C0019:257-305",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:306-415",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:416-526",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:527-632",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:633-736",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:737-837",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:838-905",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:907-1007",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:1008-1058",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:1059-1166",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:1167-1277",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:1278-1387",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:1388-1493",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:1494-1599",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:1600-1700",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:1701-1801",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:1802-1910",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:1911-2015",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:2016-2034",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:2035-2146",
+"pred": [
+"FACTS",
+"ANALYSIS"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:2148-2250",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:2252-2323",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:2326-2430",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:2431-2534",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:2535-2600",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:2601-2714",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:2715-2823",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:2824-2925",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:2926-3035",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:3036-3142",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:3144-3150",
+"pred": [],
+"truncated_input": false
+},
+{
+"id": "C0019:3152-3157",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:3158-3169",
+"pred": [],
+"truncated_input": false
+},
+{
+"id": "C0019:3170-3188",
+"pred": [],
+"truncated_input": false
+},
+{
+"id": "C0019:3189-3206",
+"pred": [],
+"truncated_input": false
+},
+{
+"id": "C0019:3208-3227",
+"pred": [],
+"truncated_input": false
+},
+{
+"id": "C0019:3229-3325",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:3326-3425",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:3426-3537",
+"pred": [
+"FACTS",
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:3538-3563",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:3564-3669",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:3670-3782",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:3783-3887",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:3888-4000",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:4001-4103",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:4104-4215",
+"pred": [
+"PREAMBLE",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:4216-4321",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:4322-4339",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:4340-4416",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:4417-4519",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:4520-4630",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:4631-4739",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:4740-4846",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:4847-4863",
+"pred": [],
+"truncated_input": false
+},
+{
+"id": "C0019:4864-4967",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:4968-5075",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:5077-5158",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:5160-5278",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:5280-5397",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:5398-5419",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:5421-5529",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:5530-5580",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:5582-5593",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:5595-5717",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:5719-5724",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:5763-5866",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:5918-6266",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:6282-6359",
+"pred": [
+"FACTS",
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:6360-6403",
+"pred": [],
+"truncated_input": false
+},
+{
+"id": "C0019:6404-6450",
+"pred": [],
+"truncated_input": false
+},
+{
+"id": "C0019:6451-6508",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:6509-6617",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:6618-6730",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:6731-6836",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:6837-6940",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:6941-7037",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:7038-7105",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:7132-7207",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:7208-7258",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:7262-7366",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:7367-7477",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:7478-7587",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:7588-7693",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:7694-7799",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:7800-7900",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:7901-8001",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:8002-8094",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:8095-8199",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:8200-8218",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:8219-8330",
+"pred": [
+"FACTS",
+"ANALYSIS"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:8331-8437",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:8493-8564",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:8565-8671",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:8672-8775",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:8776-8841",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:8842-8955",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:8956-9064",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:9065-9166",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:9167-9277",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:9278-9384",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:9385-9481",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:9482-9581",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:9582-9693",
+"pred": [
+"FACTS",
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:9694-9719",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:9720-9825",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:9826-9938",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:9939-10043",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:10045-10157",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:10158-10260",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:10262-10373",
+"pred": [
+"PREAMBLE",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:10374-10479",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:10480-10497",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:10498-10574",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:10576-10673",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:10674-10786",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:10787-10895",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:10897-11003",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:11004-11106",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:11107-11210",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:11211-11318",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:11320-11438",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:11439-11556",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:11557-11578",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:11579-11687",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:11688-11738",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:11787-11798",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:11800-11922",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0019:11923-12026",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:44-148",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:149-188",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:189-213",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:214-235",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:236-292",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:293-402",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:403-491",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:530-603",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:604-628",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:637-742",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:743-847",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:848-957",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:958-1067",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:1068-1096",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:1097-1206",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:1207-1309",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:1310-1404",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:1405-1513",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:1514-1622",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:1623-1683",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:1684-1794",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:1795-1865",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:1866-1963",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:1964-2040",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:2041-2124",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:2125-2220",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:2221-2290",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:2291-2399",
+"pred": [
+"FACTS",
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:2400-2512",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:2513-2587",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:2588-2698",
+"pred": [],
+"truncated_input": false
+},
+{
+"id": "C0022:2699-2813",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:2865-2977",
+"pred": [
+"FACTS",
+"ANALYSIS"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:2978-3084",
+"pred": [
+"ANALYSIS"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:3085-3197",
+"pred": [
+"ANALYSIS",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:3198-3309",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:3310-3420",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:3421-3522",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:3523-3643",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:3644-3744",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:3745-3860",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:3861-3977",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:3978-4084",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:4085-4192",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:4193-4303",
+"pred": [
+"ANALYSIS"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:4304-4418",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:4419-4529",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:4532-4634",
+"pred": [
+"PREAMBLE",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:4635-4745",
+"pred": [
+"FACTS",
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:4746-4852",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:4853-4960",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:4961-5071",
+"pred": [
+"ANALYSIS"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:5072-5181",
+"pred": [
+"FACTS",
+"ANALYSIS"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:5182-5299",
+"pred": [
+"PREAMBLE",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:5300-5402",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:5403-5510",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:5511-5625",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:5626-5739",
+"pred": [
+"ANALYSIS",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:5740-5841",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:5842-5952",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:5953-6061",
+"pred": [
+"ANALYSIS"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:6062-6164",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:6165-6274",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:6277-6376",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:6377-6465",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:6466-6490",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:6491-6512",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:6513-6569",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:6597-6706",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:6707-6795",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:6796-6913",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:6914-7007",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:7008-7019",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:7021-7118",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:7237-7588",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:7604-7667",
+"pred": [
+"ARGUMENT_PLAINTIFF",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:7668-7707",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:7708-7732",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:7733-7754",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:7755-7811",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:7812-7921",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:7922-8008",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:8011-8120",
+"pred": [
+"FACTS",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:8121-8145",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:8154-8259",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:8260-8364",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:8365-8474",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:8475-8584",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:8585-8613",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:8614-8723",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:8724-8826",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:8827-8921",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:8922-9030",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:9031-9139",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:9140-9201",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:9202-9312",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:9313-9383",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:9384-9481",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:9512-9531",
+"pred": [],
+"truncated_input": false
+},
+{
+"id": "C0022:9533-9609",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:9610-9693",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:9694-9789",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:9790-9859",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:9860-9968",
+"pred": [
+"FACTS",
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:9969-10081",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:10082-10156",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:10157-10267",
+"pred": [],
+"truncated_input": false
+},
+{
+"id": "C0022:10268-10382",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:10383-10495",
+"pred": [
+"FACTS",
+"ANALYSIS"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:10496-10602",
+"pred": [
+"ANALYSIS"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:10603-10715",
+"pred": [
+"ANALYSIS",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:10716-10827",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:10828-10938",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:10939-11040",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:11041-11161",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:11162-11262",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:11263-11378",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:11379-11495",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:11496-11602",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:11603-11710",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:11711-11821",
+"pred": [
+"ANALYSIS"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:11822-11936",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:11937-12047",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:12050-12152",
+"pred": [
+"PREAMBLE",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:12153-12263",
+"pred": [
+"FACTS",
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:12264-12370",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:12371-12478",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:12479-12589",
+"pred": [
+"ANALYSIS"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:12590-12699",
+"pred": [
+"FACTS",
+"ANALYSIS"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:12700-12817",
+"pred": [
+"PREAMBLE",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:12818-12926",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:12927-13034",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:13035-13149",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:13150-13263",
+"pred": [
+"ANALYSIS",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:13264-13365",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:13412-13522",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:13523-13631",
+"pred": [
+"ANALYSIS"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:13632-13734",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:13735-13844",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:13847-13946",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:13948-14036",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:14038-14062",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:14064-14085",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:14087-14143",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:14145-14254",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:14256-14343",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:14380-14462",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:14463-14557",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:14559-14570",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0022:14572-14669",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:35-73",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:75-113",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:114-156",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:158-260",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:261-332",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:335-437",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:438-506",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:508-610",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:611-693",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:695-798",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:799-880",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:882-992",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:993-1108",
+"pred": [
+"FACTS",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:1109-1201",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:1202-1225",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:1236-1290",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:1292-1383",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:1385-1477",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:1479-1568",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:1570-1654",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:1656-1755",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:1756-1858",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:1860-1952",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:1954-2050",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:2052-2122",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:2125-2216",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:2218-2307",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:2389-2476",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:2477-2561",
+"pred": [],
+"truncated_input": false
+},
+{
+"id": "C0028:2562-2645",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:2646-2740",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:2741-2807",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:2809-2907",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:2908-3002",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:3003-3093",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:3094-3184",
+"pred": [],
+"truncated_input": false
+},
+{
+"id": "C0028:3186-3277",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:3279-3366",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:3367-3465",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:3466-3555",
+"pred": [],
+"truncated_input": false
+},
+{
+"id": "C0028:3556-3634",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:3636-3725",
+"pred": [
+"FACTS",
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:3727-3820",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:3822-3911",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:3912-4007",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:4008-4109",
+"pred": [
+"FACTS",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:4111-4204",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:4206-4301",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:4302-4363",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:4364-4459",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:4460-4547",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:4548-4639",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:4640-4729",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:4730-4822",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:4823-4914",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:4915-5007",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:5008-5095",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:5096-5186",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:5187-5281",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:5282-5376",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:5377-5463",
+"pred": [
+"PREAMBLE",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:5464-5557",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:5594-5668",
+"pred": [
+"FACTS",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:5669-5734",
+"pred": [
+"PREAMBLE",
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:5735-5828",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:5830-5846",
+"pred": [],
+"truncated_input": false
+},
+{
+"id": "C0028:5848-5862",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:5864-5950",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:5951-6038",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:6039-6133",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:6134-6219",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:6220-6308",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:6309-6409",
+"pred": [],
+"truncated_input": false
+},
+{
+"id": "C0028:6410-6498",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:6499-6586",
+"pred": [
+"PREAMBLE",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:6587-6681",
+"pred": [],
+"truncated_input": false
+},
+{
+"id": "C0028:6682-6774",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:6775-6863",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:6864-6948",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:6949-7053",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:7054-7155",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:7156-7247",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:7248-7348",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:7349-7432",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:7433-7519",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:7520-7610",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:7611-7675",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:7676-7772",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:7773-7870",
+"pred": [],
+"truncated_input": false
+},
+{
+"id": "C0028:7871-7971",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:7972-8070",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:8071-8167",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:8168-8248",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:8249-8291",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:8293-8315",
+"pred": [],
+"truncated_input": false
+},
+{
+"id": "C0028:8317-8417",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:8418-8489",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:8492-8594",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:8595-8663",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:8665-8767",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:8768-8850",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:8907-9010",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:9011-9092",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:9094-9203",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:9204-9309",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:9310-9400",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:9402-9510",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:9511-9610",
+"pred": [],
+"truncated_input": false
+},
+{
+"id": "C0028:9612-9701",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:9703-9785",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:9799-9909",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:9910-9941",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:10008-10355",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:10371-10409",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:10410-10452",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:10454-10556",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:10557-10628",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:10631-10733",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:10734-10803",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:10806-10908",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:10909-10991",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:10993-11096",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:11097-11178",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:11180-11290",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:11291-11406",
+"pred": [
+"FACTS",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:11407-11499",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:11500-11523",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:11533-11587",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:11588-11679",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:12462-12553",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:12554-12643",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:12644-12653",
+"pred": [],
+"truncated_input": false
+},
+{
+"id": "C0028:12655-12742",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:12743-12827",
+"pred": [],
+"truncated_input": false
+},
+{
+"id": "C0028:12828-12910",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:12911-13004",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:13005-13072",
+"pred": [],
+"truncated_input": false
+},
+{
+"id": "C0028:13075-13173",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:13174-13268",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:13269-13359",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:13360-13450",
+"pred": [],
+"truncated_input": false
+},
+{
+"id": "C0028:13451-13542",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:13543-13630",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:13631-13729",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:13730-13819",
+"pred": [],
+"truncated_input": false
+},
+{
+"id": "C0028:13820-13898",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:13900-13989",
+"pred": [
+"FACTS",
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:13991-14084",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:14086-14175",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:14176-14271",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:14272-14373",
+"pred": [
+"FACTS",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:14374-14468",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:14469-14564",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:14565-14647",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:14648-14743",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:14745-14832",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:14834-14925",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:17187-17271",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:17272-17376",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:17377-17478",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:17479-17570",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:17571-17671",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:17672-17755",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:17756-17842",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:17843-17933",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:17934-18021",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:18022-18118",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:18119-18216",
+"pred": [],
+"truncated_input": false
+},
+{
+"id": "C0028:18217-18317",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:18319-18417",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:18440-18536",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:19386-19495",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:19496-19601",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:19602-19692",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:19694-19802",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:19803-19903",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:19905-19994",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:19996-20078",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:20093-20203",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0028:20204-20235",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0034:116-618",
+"pred": [
+"PREAMBLE",
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0034:632-689",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0034:690-745",
+"pred": [],
+"truncated_input": false
+},
+{
+"id": "C0034:748-799",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0034:800-862",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0034:863-976",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0034:977-1086",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0034:1087-1099",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0034:1100-1187",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0034:1188-1300",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0034:1301-1416",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0034:1647-1746",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0034:1937-2039",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0034:2042-2145",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0034:2148-2170",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0034:2173-2274",
+"pred": [
+"PREAMBLE",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0034:2277-2386",
+"pred": [
+"FACTS",
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0034:2389-2496",
+"pred": [
+"FACTS",
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0034:2499-2608",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0034:2634-2743",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0034:2746-2853",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0034:2856-2962",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0034:2965-3062",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0034:3065-3172",
+"pred": [
+"FACTS",
+"ANALYSIS"
+],
+"truncated_input": false
+},
+{
+"id": "C0034:3175-3219",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0034:3222-3235",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0034:3237-3320",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0034:3322-3541",
+"pred": [
+"PREAMBLE",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0034:3737-3861",
+"pred": [
+"PREAMBLE",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0034:3862-3917",
+"pred": [],
+"truncated_input": false
+},
+{
+"id": "C0034:3918-3969",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0034:3971-4033",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0034:4034-4147",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0034:4149-4258",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0034:4260-4271",
+"pred": [],
+"truncated_input": false
+},
+{
+"id": "C0034:4272-4359",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0034:4360-4470",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0034:4471-4585",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0034:4587-4599",
+"pred": [],
+"truncated_input": false
+},
+{
+"id": "C0034:4600-4699",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0034:4700-4774",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0034:4897-5005",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0034:5006-5013",
+"pred": [],
+"truncated_input": false
+},
+{
+"id": "C0034:5016-5072",
+"pred": [
+"ARGUMENT_PLAINTIFF",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0034:5113-5125",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0034:5126-5229",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0034:5230-5349",
+"pred": [
+"FACTS",
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0034:5350-5456",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0034:5457-5570",
+"pred": [
+"ANALYSIS",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0034:5571-5576",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0034:5578-5690",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0034:5691-5802",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0034:5803-5910",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0034:5911-6018",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0034:6019-6128",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0034:6129-6152",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0034:6154-6167",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0034:6168-6251",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:71-110",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:111-148",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:149-206",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:207-263",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:265-373",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:375-488",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:490-605",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:607-725",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:726-748",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:752-849",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:851-954",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:955-1045",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:1055-1119",
+"pred": [
+"PREAMBLE",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:1121-1223",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:1225-1338",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:1339-1445",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:1446-1564",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:1565-1673",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:1674-1787",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:1788-1895",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:1896-2014",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:2015-2132",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:2134-2200",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:2202-2306",
+"pred": [
+"FACTS",
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:2307-2423",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:2424-2458",
+"pred": [],
+"truncated_input": false
+},
+{
+"id": "C0045:2460-2572",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:2648-2678",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:2680-2792",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:2793-2835",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:2836-2950",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:2951-3067",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:3068-3154",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:3221-3340",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:3341-3379",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:3382-3485",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:3486-3536",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:3538-3644",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:3645-3749",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:3750-3841",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:3843-3955",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:3956-4072",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:4073-4183",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:4185-4296",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:4297-4411",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:4412-4523",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:4524-4635",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:4636-4743",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:4744-4849",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:4851-4956",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:4958-5066",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:5067-5179",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:5180-5282",
+"pred": [
+"PREAMBLE",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:5283-5403",
+"pred": [
+"LAW_REFERENCE",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:5405-5510",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:5511-5552",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:5556-5668",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:5669-5701",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:5742-5753",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:5754-5860",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:5861-5896",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:6006-6356",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:6370-6407",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:6408-6465",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:6466-6522",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:6524-6632",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:6634-6748",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:6750-6865",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:6867-6986",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:6987-7009",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:7013-7110",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:7111-7214",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:7215-7305",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:7314-7378",
+"pred": [
+"PREAMBLE",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:7380-7482",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:7483-7596",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:7597-7703",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:7704-7822",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:7823-7931",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:7932-8045",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:8081-8098",
+"pred": [],
+"truncated_input": false
+},
+{
+"id": "C0045:8100-8119",
+"pred": [],
+"truncated_input": false
+},
+{
+"id": "C0045:8121-8228",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:8229-8347",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:8348-8465",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:8467-8533",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:8535-8639",
+"pred": [
+"FACTS",
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:8640-8756",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:8757-8791",
+"pred": [],
+"truncated_input": false
+},
+{
+"id": "C0045:8793-8905",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:8906-8936",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:8938-9050",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:9051-9155",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:9156-9270",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:9271-9387",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:9388-9474",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:9477-9596",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:9597-9635",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:9638-9741",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:9742-9792",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:9794-9900",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:9901-10005",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:10006-10097",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:10099-10143",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:10144-10260",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:10261-10371",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:10373-10439",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:10441-10552",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:10553-10667",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:10668-10779",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:10780-10859",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:10861-10891",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:10960-10999",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:11000-11112",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:11113-11218",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:11219-11327",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:11328-11440",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:11466-11568",
+"pred": [
+"PREAMBLE",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:11569-11689",
+"pred": [
+"LAW_REFERENCE",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:11691-11796",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:11797-11840",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:11842-11954",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:11955-11987",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:12002-12108",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0045:12109-12144",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0051:2-439",
+"pred": [
+"PREAMBLE",
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0051:443-1222",
+"pred": [
+"FACTS",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0051:1225-1558",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0051:1563-1941",
+"pred": [
+"FACTS",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0051:1945-2812",
+"pred": [
+"PREAMBLE",
+"FACTS",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0051:2973-3533",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0051:3562-3815",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0051:3819-4468",
+"pred": [
+"LAW_REFERENCE",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0051:4472-5458",
+"pred": [
+"LAW_REFERENCE",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0051:5462-5650",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0051:5652-5772",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0051:5776-5984",
+"pred": [
+"DECISION",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0053:2-201",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0053:2-2559",
+"pred": [
+"PREAMBLE",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0053:202-259",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0053:260-680",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0053:260-2559",
+"pred": [
+"PREAMBLE",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0053:684-869",
+"pred": [
+"FACTS",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0053:871-1103",
+"pred": [
+"FACTS",
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0053:1107-1355",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0053:1361-1547",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0053:1551-1617",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0053:1641-1910",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0053:1914-2146",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0053:2147-2511",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0053:2515-2559",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0057:2-1894",
+"pred": [
+"PREAMBLE",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0057:1898-2171",
+"pred": [
+"FACTS",
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0057:2172-2354",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0057:2358-2562",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0057:2566-2692",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0057:2696-5492",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0057:3404-3961",
+"pred": [
+"LAW_REFERENCE",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0057:3962-4057",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0057:5320-5852",
+"pred": [
+"LAW_REFERENCE",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0057:5857-6660",
+"pred": [
+"LAW_REFERENCE",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0057:6664-6853",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0057:6857-6972",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0057:6976-7236",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0057:7240-7287",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0066:2-228",
+"pred": [
+"PREAMBLE",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0066:234-272",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0066:278-330",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0066:378-501",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0066:502-810",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0066:841-966",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0066:1110-1373",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0066:1377-1468",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0066:1472-1649",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0066:1653-1982",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0066:1984-3746",
+"pred": [
+"FACTS",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0066:3750-3847",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0066:3851-4637",
+"pred": [
+"PREAMBLE",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0066:4801-5359",
+"pred": [
+"FACTS",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0066:5448-5697",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0066:5701-5982",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0066:5986-6257",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0066:6261-6593",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0066:6595-6706",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0066:6595-8370",
+"pred": [
+"FACTS",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0066:8374-8471",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0066:8475-8773",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0067:0-341",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0067:345-1582",
+"pred": [
+"PREAMBLE",
+"FACTS",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0067:1586-1841",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0067:1845-1919",
+"pred": [
+"PREAMBLE",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0067:1923-2195",
+"pred": [
+"FACTS",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0067:2199-5720",
+"pred": [
+"FACTS",
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0067:5724-6305",
+"pred": [
+"FACTS",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0067:6310-7769",
+"pred": [
+"FACTS",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0067:7773-9135",
+"pred": [
+"FACTS",
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0067:9139-9406",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0067:9412-10018",
+"pred": [
+"FACTS",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0067:9412-20127",
+"pred": [
+"FACTS",
+"DECISION"
+],
+"truncated_input": true
+},
+{
+"id": "C0067:10019-10438",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0067:10442-10576",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0067:10580-10733",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0067:10737-10899",
+"pred": [
+"FACTS",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0067:10903-11303",
+"pred": [
+"FACTS",
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0067:11307-11389",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0067:11394-12324",
+"pred": [
+"FACTS",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0067:12328-15445",
+"pred": [
+"FACTS",
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0067:15449-15955",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0067:15959-17696",
+"pred": [
+"FACTS",
+"LAW_REFERENCE",
+"ANALYSIS"
+],
+"truncated_input": false
+},
+{
+"id": "C0067:17699-17772",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0067:17776-18795",
+"pred": [
+"ARGUMENT_PLAINTIFF",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0067:18796-19027",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0067:19032-19198",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"ANALYSIS"
+],
+"truncated_input": false
+},
+{
+"id": "C0067:19202-19796",
+"pred": [
+"FACTS",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0067:19797-19896",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0067:19897-20193",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0067:20128-20240",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0067:20195-20238",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0067:20244-20665",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0067:20671-20964",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0067:20968-21196",
+"pred": [
+"PREAMBLE",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0067:21202-21979",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0067:21202-27613",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"DECISION"
+],
+"truncated_input": true
+},
+{
+"id": "C0067:21983-22236",
+"pred": [
+"FACTS",
+"ANALYSIS"
+],
+"truncated_input": false
+},
+{
+"id": "C0067:22238-22983",
+"pred": [
+"FACTS",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0067:22984-23101",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0067:23105-23391",
+"pred": [
+"FACTS",
+"ARGUMENT_PLAINTIFF"
+],
+"truncated_input": false
+},
+{
+"id": "C0067:23106-23391",
+"pred": [
+"FACTS",
+"ARGUMENT_PLAINTIFF"
+],
+"truncated_input": false
+},
+{
+"id": "C0067:23395-23618",
+"pred": [
+"ARGUMENT_PLAINTIFF",
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0067:23624-24017",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0067:24022-24632",
+"pred": [
+"FACTS",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0067:24636-25732",
+"pred": [
+"LAW_REFERENCE",
+"ANALYSIS"
+],
+"truncated_input": false
+},
+{
+"id": "C0067:25733-25773",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0067:25775-27521",
+"pred": [
+"FACTS",
+"ARGUMENT_DEFENDANT",
+"ANALYSIS"
+],
+"truncated_input": false
+},
+{
+"id": "C0067:27524-27612",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0067:27617-27884",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0067:27979-29459",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0067:29463-29695",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0067:29697-29767",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0067:29769-29890",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0067:29892-29946",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0067:29950-30346",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0067:30350-30722",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0083:2-604",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0083:914-3915",
+"pred": [
+"ARGUMENT_PLAINTIFF",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0083:3919-4330",
+"pred": [
+"FACTS",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0083:4334-4486",
+"pred": [
+"FACTS",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0083:4490-4790",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0083:4794-5146",
+"pred": [
+"ARGUMENT_PLAINTIFF",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0083:5148-5174",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0083:5175-5204",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0083:5205-5287",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0083:5288-5392",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0083:5393-5445",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0083:5449-5529",
+"pred": [
+"PREAMBLE",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0083:5530-5725",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0083:5726-5859",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0083:5863-6295",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"LAW_REFERENCE",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0083:6296-6450",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0083:6793-7057",
+"pred": [
+"FACTS",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0083:7058-7088",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0083:7089-7095",
+"pred": [],
+"truncated_input": false
+},
+{
+"id": "C0083:7096-7179",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0083:7180-7598",
+"pred": [
+"FACTS",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0083:7599-7743",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0083:7744-7830",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0083:7831-7996",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0083:7997-8131",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0083:8132-8304",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0083:8305-8561",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0083:8562-9044",
+"pred": [
+"LAW_REFERENCE",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0083:9045-9241",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0083:9245-9280",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0083:9281-9343",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0083:9344-9514",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0083:9515-9570",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0083:9571-9880",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0083:9881-10001",
+"pred": [
+"ANALYSIS",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0083:10005-10191",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0083:10192-10292",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0083:10296-10664",
+"pred": [
+"DECISION",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0083:10666-10717",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0083:10718-10784",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0083:10785-10791",
+"pred": [],
+"truncated_input": false
+},
+{
+"id": "C0083:10793-10799",
+"pred": [],
+"truncated_input": false
+},
+{
+"id": "C0083:10800-10888",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0083:10889-11222",
+"pred": [
+"DECISION",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0083:11223-11556",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0094:2-728",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0094:732-1154",
+"pred": [
+"FACTS",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0094:1158-2085",
+"pred": [
+"FACTS",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0094:2089-2596",
+"pred": [
+"FACTS",
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0094:2600-2994",
+"pred": [
+"PREAMBLE",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0094:2819-3518",
+"pred": [
+"PREAMBLE",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0094:2998-8587",
+"pred": [
+"FACTS",
+"DECISION_APPEAL"
+],
+"truncated_input": true
+},
+{
+"id": "C0094:3519-5286",
+"pred": [
+"FACTS",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0094:5287-5619",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0094:5623-5688",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0094:5689-5739",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0094:5740-5822",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0094:5823-5863",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0094:5864-5893",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0094:5894-6101",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0094:6102-6188",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0094:6182-6188",
+"pred": [],
+"truncated_input": false
+},
+{
+"id": "C0094:6192-6354",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0094:6355-6432",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0094:6436-6541",
+"pred": [
+"ARGUMENT_PLAINTIFF"
+],
+"truncated_input": false
+},
+{
+"id": "C0094:6542-6667",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0094:6670-6709",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0094:6712-7659",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0094:7236-7288",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0094:7478-7659",
+"pred": [
+"DECISION",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0094:7660-7821",
+"pred": [
+"PREAMBLE",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0094:7822-8587",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0094:8588-8657",
+"pred": [
+"ARGUMENT_PLAINTIFF"
+],
+"truncated_input": false
+},
+{
+"id": "C0094:8658-8706",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0094:8710-8874",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0094:8878-9755",
+"pred": [
+"PREAMBLE",
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0094:9759-10143",
+"pred": [
+"LAW_REFERENCE",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0094:10428-10889",
+"pred": [
+"PREAMBLE",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0094:10893-11179",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0094:11183-11457",
+"pred": [
+"PREAMBLE",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0107:3-733",
+"pred": [
+"PREAMBLE",
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0107:738-1071",
+"pred": [
+"PREAMBLE",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0107:1075-1592",
+"pred": [
+"FACTS",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0107:1596-1860",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0107:1864-2438",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0107:2442-2527",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0107:2531-2836",
+"pred": [
+"FACTS",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0107:2837-2997",
+"pred": [
+"FACTS",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0107:3001-3520",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0107:3524-3788",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0107:3792-4240",
+"pred": [
+"LAW_REFERENCE",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0107:4241-4457",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0107:4461-4528",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0107:4813-4883",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0107:4885-4918",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0114:2-193",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0114:569-878",
+"pred": [
+"ARGUMENT_PLAINTIFF"
+],
+"truncated_input": false
+},
+{
+"id": "C0114:879-992",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0114:993-1243",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0114:1244-1464",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0114:1468-1749",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0114:1750-1962",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0114:1963-2042",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0114:2043-2671",
+"pred": [
+"FACTS",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0114:2672-2848",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0114:2852-2956",
+"pred": [
+"FACTS",
+"ARGUMENT_PLAINTIFF"
+],
+"truncated_input": false
+},
+{
+"id": "C0114:2957-2983",
+"pred": [],
+"truncated_input": false
+},
+{
+"id": "C0114:2984-3044",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0114:3048-4483",
+"pred": [
+"FACTS",
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0114:4487-4559",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0114:4560-4607",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0114:4608-4637",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0114:4641-4989",
+"pred": [
+"ARGUMENT_PLAINTIFF",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0114:4990-5021",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0114:5022-5087",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0114:5091-5216",
+"pred": [
+"PREAMBLE",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0114:5220-5296",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0114:5297-5881",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0114:5882-6273",
+"pred": [
+"FACTS",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0114:6274-6522",
+"pred": [
+"FACTS",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0114:6523-6611",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0114:6615-6846",
+"pred": [
+"ARGUMENT_PLAINTIFF",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0114:6850-7110",
+"pred": [
+"ANALYSIS"
+],
+"truncated_input": false
+},
+{
+"id": "C0114:7111-7395",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0114:7452-9345",
+"pred": [
+"LAW_REFERENCE",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0114:9830-9908",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0114:9912-10280",
+"pred": [
+"FACTS",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0114:9912-12097",
+"pred": [
+"FACTS",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0114:10282-10355",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0114:10359-10483",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0114:10487-10999",
+"pred": [
+"FACTS",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0114:11004-11324",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0114:11325-11552",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0114:11428-11552",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0114:11553-11622",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0114:11624-11667",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0114:11668-11812",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0114:11813-11872",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0114:11873-12097",
+"pred": [
+"LAW_REFERENCE",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0114:12101-12375",
+"pred": [
+"LAW_REFERENCE",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0114:12377-12557",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0114:12561-12761",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0114:12765-12932",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0114:12933-12989",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0114:12993-13074",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0133:2-109",
+"pred": [
+"PREAMBLE",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0133:111-553",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0133:557-787",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0133:792-989",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0133:993-1201",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0133:1205-1673",
+"pred": [
+"DECISION",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0133:1677-2055",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0133:2059-2924",
+"pred": [
+"FACTS",
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0133:2794-2861",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0133:2998-3677",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0133:4012-4178",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0133:4180-4831",
+"pred": [
+"FACTS",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0133:4835-5242",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"ANALYSIS"
+],
+"truncated_input": false
+},
+{
+"id": "C0133:5246-5998",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0133:6002-8521",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"LAW_REFERENCE",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0133:8525-8643",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0133:8644-8806",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0133:8810-9654",
+"pred": [
+"PREAMBLE",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0133:9931-10099",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0133:10103-10332",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0133:10336-10533",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0133:10537-10745",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0133:10749-11217",
+"pred": [
+"DECISION",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0133:11221-11451",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0133:11455-11601",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0133:11605-12470",
+"pred": [
+"FACTS",
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0133:12474-13553",
+"pred": [
+"PREAMBLE",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0133:13557-14373",
+"pred": [
+"PREAMBLE",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0133:14377-14784",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"ANALYSIS"
+],
+"truncated_input": false
+},
+{
+"id": "C0133:14788-15540",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0133:15544-15747",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0133:15748-16063",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"ANALYSIS"
+],
+"truncated_input": false
+},
+{
+"id": "C0133:16067-18064",
+"pred": [
+"LAW_REFERENCE",
+"DECISION",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0133:18068-18186",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0133:18187-18349",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0133:18353-18622",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0133:18623-18645",
+"pred": [],
+"truncated_input": false
+},
+{
+"id": "C0141:2-366",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0141:367-681",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0141:685-761",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0141:774-834",
+"pred": [
+"PREAMBLE",
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0141:838-1026",
+"pred": [
+"FACTS",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0141:1030-5339",
+"pred": [
+"FACTS",
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0141:5343-6216",
+"pred": [
+"FACTS",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0141:6220-8953",
+"pred": [
+"FACTS",
+"LAW_REFERENCE",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0141:8957-9226",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0141:9489-9824",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0141:9828-9838",
+"pred": [],
+"truncated_input": false
+},
+{
+"id": "C0141:9863-10216",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0141:10554-10868",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0141:10872-10949",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0141:10962-11022",
+"pred": [
+"PREAMBLE",
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0141:11026-11217",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0141:11221-15533",
+"pred": [
+"FACTS",
+"ARGUMENT_DEFENDANT",
+"LAW_REFERENCE",
+"ANALYSIS"
+],
+"truncated_input": false
+},
+{
+"id": "C0141:15537-15796",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0141:16415-19155",
+"pred": [
+"FACTS",
+"LAW_REFERENCE",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0141:19159-19687",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0141:19691-20025",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0141:20029-20039",
+"pred": [],
+"truncated_input": false
+},
+{
+"id": "C0141:20040-20060",
+"pred": [],
+"truncated_input": false
+},
+{
+"id": "C0145:2-98",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0145:211-421",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0145:425-607",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0145:611-801",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0145:805-972",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0145:976-1056",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0145:1060-1182",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0145:1186-1377",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0145:1381-1510",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0145:1514-1578",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0145:1582-1635",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0145:1639-1701",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0145:1705-2136",
+"pred": [
+"FACTS",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0145:2140-2218",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0145:2219-2456",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0145:2460-2560",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0145:2564-3240",
+"pred": [
+"PREAMBLE",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0145:3423-3633",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0145:3637-3819",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0145:3823-4013",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0145:4017-4184",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0145:4188-4268",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0145:4272-4394",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0145:4398-4589",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0145:4593-4722",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0145:4726-4790",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0145:4794-4847",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0145:4851-4913",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0145:4917-5351",
+"pred": [
+"FACTS",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0145:5355-5433",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0145:5434-5671",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0145:5675-5775",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0145:5779-6068",
+"pred": [
+"PREAMBLE",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0148:2-322",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0148:397-595",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0148:599-644",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0148:648-840",
+"pred": [
+"FACTS",
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0148:844-917",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0148:921-1083",
+"pred": [
+"LAW_REFERENCE",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0148:1087-1276",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0148:1277-1359",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0148:1361-1413",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0148:1414-1456",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0148:1460-1492",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:2-180",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:936-1401",
+"pred": [
+"FACTS",
+"ISSUE"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:1405-1659",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:1663-1735",
+"pred": [
+"ARGUMENT_PLAINTIFF",
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:1739-1861",
+"pred": [
+"ARGUMENT_PLAINTIFF",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:1865-2103",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:2107-2186",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:2190-2253",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:2258-2531",
+"pred": [
+"DECISION",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:2535-2900",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:2904-2958",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:2962-4329",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:2962-8933",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"LAW_REFERENCE",
+"ANALYSIS"
+],
+"truncated_input": true
+},
+{
+"id": "C0156:8937-13789",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"ANALYSIS",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:9017-9374",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:13793-13863",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:13867-13933",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:13937-14113",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:14458-14737",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:14741-14993",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:14998-15072",
+"pred": [
+"ARGUMENT_PLAINTIFF",
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:15076-15142",
+"pred": [
+"PREAMBLE",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:15076-16258",
+"pred": [
+"FACTS",
+"ARGUMENT_DEFENDANT",
+"LAW_REFERENCE",
+"ANALYSIS"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:15144-24016",
+"pred": [
+"FACTS",
+"DECISION"
+],
+"truncated_input": true
+},
+{
+"id": "C0156:16262-17051",
+"pred": [
+"FACTS",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:17055-17188",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:17192-17513",
+"pred": [
+"FACTS",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:17517-18195",
+"pred": [
+"FACTS",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:18199-19012",
+"pred": [
+"FACTS",
+"ARGUMENT_PLAINTIFF",
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:19016-20719",
+"pred": [
+"LAW_REFERENCE",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:20719-23711",
+"pred": [
+"ARGUMENT_PLAINTIFF",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:23529-23711",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:23715-23943",
+"pred": [
+"FACTS",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:23848-23943",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:23947-24167",
+"pred": [
+"DECISION",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:24171-24236",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:24240-24419",
+"pred": [
+"PREAMBLE",
+"FACTS",
+"ISSUE"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:24240-24649",
+"pred": [
+"PREAMBLE",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:24651-26001",
+"pred": [
+"PREAMBLE",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:26005-26149",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:35264-35466",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:35512-35868",
+"pred": [
+"FACTS",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:35869-36018",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:36019-36160",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:36162-36195",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:36197-36230",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:36232-36258",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:36260-36295",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:36297-36518",
+"pred": [
+"FACTS",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:36625-37421",
+"pred": [
+"FACTS",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:37425-37723",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:37727-38172",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:38176-38379",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:38383-38554",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:38558-39026",
+"pred": [
+"LAW_REFERENCE",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:39030-39136",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:39140-39383",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:39385-39575",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:39576-39848",
+"pred": [
+"PREAMBLE",
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:39852-40113",
+"pred": [
+"FACTS",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:40114-40179",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:40184-40872",
+"pred": [
+"FACTS",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:40876-41166",
+"pred": [
+"FACTS",
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:41170-41728",
+"pred": [
+"FACTS",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:41732-42086",
+"pred": [
+"FACTS",
+"ANALYSIS"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:42090-42424",
+"pred": [
+"PREAMBLE",
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:42428-42659",
+"pred": [
+"LAW_REFERENCE",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:42663-42699",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:42703-42945",
+"pred": [
+"FACTS",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:42949-43581",
+"pred": [
+"LAW_REFERENCE",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:43581-43618",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:43623-43769",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:43776-44369",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:44370-45390",
+"pred": [
+"FACTS",
+"LAW_REFERENCE",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:45394-46614",
+"pred": [
+"LAW_REFERENCE",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:46615-46640",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:46644-47171",
+"pred": [
+"FACTS",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:47172-48447",
+"pred": [
+"LAW_REFERENCE",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:48451-48712",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:48716-48894",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:49242-49518",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:49522-49775",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:49779-49851",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:49855-51832",
+"pred": [
+"FACTS",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:51837-51973",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:51978-52292",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:52293-52982",
+"pred": [
+"FACTS",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:52986-53315",
+"pred": [
+"FACTS",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:53319-53468",
+"pred": [
+"ARGUMENT_PLAINTIFF"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:53469-53798",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:53802-55502",
+"pred": [
+"LAW_REFERENCE",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:55503-58445",
+"pred": [
+"FACTS",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:58446-58513",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:58517-58700",
+"pred": [
+"FACTS",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:58701-58746",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:58750-58930",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:58931-58968",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:58972-59038",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:59044-59566",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:59570-59846",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:59850-60103",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:60107-60179",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:60183-62160",
+"pred": [
+"FACTS",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:62165-62301",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:62306-62620",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:62621-63310",
+"pred": [
+"FACTS",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:63314-64126",
+"pred": [
+"FACTS",
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:64130-65847",
+"pred": [
+"LAW_REFERENCE",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:65848-68710",
+"pred": [
+"FACTS",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:68711-68841",
+"pred": [
+"LAW_REFERENCE",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:68845-69028",
+"pred": [
+"FACTS",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:69078-69258",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:69371-69564",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:69519-70328",
+"pred": [
+"PREAMBLE",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:69600-69812",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:70215-80159",
+"pred": [
+"FACTS",
+"ARGUMENT_PLAINTIFF",
+"ARGUMENT_DEFENDANT",
+"LAW_REFERENCE"
+],
+"truncated_input": true
+},
+{
+"id": "C0156:70332-70462",
+"pred": [
+"FACTS",
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:70463-70931",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:70935-71004",
+"pred": [
+"ARGUMENT_PLAINTIFF",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:71073-71163",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:71167-72443",
+"pred": [
+"FACTS",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:72445-72727",
+"pred": [
+"FACTS",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:72731-72915",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:72919-73010",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:73014-73173",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:73241-73423",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:79226-80159",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"ANALYSIS",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:80164-80273",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:80277-80578",
+"pred": [
+"DECISION",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:80370-80493",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:80582-80853",
+"pred": [
+"DECISION",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:80857-80950",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:81907-82096",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:82101-82203",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:82207-82543",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:82544-83016",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:83020-83089",
+"pred": [
+"ARGUMENT_PLAINTIFF",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:83158-83249",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:83253-85841",
+"pred": [
+"FACTS",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:85845-86872",
+"pred": [
+"FACTS",
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:86876-88372",
+"pred": [
+"FACTS",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:88376-89292",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"LAW_REFERENCE",
+"ANALYSIS",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:89296-89993",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:91775-92584",
+"pred": [
+"PREAMBLE",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:92588-92618",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:92620-92698",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:92702-92902",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:92906-93090",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:93094-93185",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:93189-93348",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:93349-93412",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:93416-93598",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:93602-93705",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:93709-93949",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:93950-94418",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:94422-94491",
+"pred": [
+"ARGUMENT_PLAINTIFF",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:102437-102529",
+"pred": [
+"ANALYSIS",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:102530-102653",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:102658-102738",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:102742-103013",
+"pred": [
+"DECISION",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:103017-103461",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:103594-103760",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:103762-104338",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:104342-104408",
+"pred": [
+"ARGUMENT_PLAINTIFF",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:104412-105276",
+"pred": [
+"FACTS",
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:105280-106317",
+"pred": [
+"FACTS",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:106321-106911",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:106915-109130",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:109134-109468",
+"pred": [
+"FACTS",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:109469-109693",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:109697-110422",
+"pred": [
+"LAW_REFERENCE",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:110426-110701",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:110720-110864",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:110868-111677",
+"pred": [
+"PREAMBLE",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:111681-111711",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:111713-111791",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:111795-111995",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:111999-112183",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:112187-112278",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:112282-112441",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:112442-112505",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:112509-112691",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:112695-112798",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0156:115480-115751",
+"pred": [
+"DECISION",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0157:2-904",
+"pred": [
+"PREAMBLE",
+"FACTS",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0157:1128-1269",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0157:1273-1471",
+"pred": [
+"PREAMBLE",
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0157:1475-2032",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0157:2033-2230",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0157:2234-2758",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0157:2762-3375",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0157:3481-8574",
+"pred": [
+"FACTS",
+"ARGUMENT_DEFENDANT",
+"LAW_REFERENCE",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0157:8578-9139",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"LAW_REFERENCE",
+"ANALYSIS"
+],
+"truncated_input": false
+},
+{
+"id": "C0157:9143-9529",
+"pred": [],
+"truncated_input": false
+},
+{
+"id": "C0157:9533-11040",
+"pred": [
+"FACTS",
+"LAW_REFERENCE",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0157:11044-11334",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0157:11338-11528",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0157:11532-11867",
+"pred": [
+"FACTS",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0157:11871-12100",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0157:12104-12337",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0157:12341-12576",
+"pred": [
+"DECISION",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0157:12580-12751",
+"pred": [
+"PREAMBLE",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0157:12755-14069",
+"pred": [
+"FACTS",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0157:12755-20529",
+"pred": [
+"FACTS",
+"DECISION_APPEAL"
+],
+"truncated_input": true
+},
+{
+"id": "C0157:14073-14560",
+"pred": [
+"FACTS",
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0157:14564-15632",
+"pred": [
+"FACTS",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0157:15636-15811",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0157:15815-15983",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0157:15987-16288",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0157:16292-16581",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0157:16585-16987",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"ANALYSIS"
+],
+"truncated_input": false
+},
+{
+"id": "C0157:16991-17388",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"ANALYSIS"
+],
+"truncated_input": false
+},
+{
+"id": "C0157:17392-17652",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0157:17656-17895",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0157:17899-18328",
+"pred": [
+"FACTS",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0157:18197-18328",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0157:18407-18950",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0157:18953-19015",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0157:19019-19199",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0157:19203-19246",
+"pred": [
+"ARGUMENT_PLAINTIFF"
+],
+"truncated_input": false
+},
+{
+"id": "C0157:19250-19424",
+"pred": [
+"FACTS",
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0157:19428-19879",
+"pred": [
+"FACTS",
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0157:19883-20144",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0157:20148-20316",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0157:20320-20451",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0157:20455-20529",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0157:20533-20682",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0157:20686-20859",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0157:20863-22677",
+"pred": [
+"PREAMBLE",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0157:22620-22677",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0157:22681-22907",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0159:2-409",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0159:413-1139",
+"pred": [
+"FACTS",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0159:1143-1358",
+"pred": [
+"FACTS",
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0159:1359-1398",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0159:1399-1464",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0159:1769-1941",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0159:1945-2432",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0159:1945-4065",
+"pred": [
+"LAW_REFERENCE",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0159:4069-4563",
+"pred": [
+"LAW_REFERENCE",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0159:4567-4769",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0159:4773-5177",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0159:5178-5502",
+"pred": [
+"FACTS",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0159:5506-5829",
+"pred": [
+"DECISION",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0159:5833-5875",
+"pred": [],
+"truncated_input": false
+},
+{
+"id": "C0174:2-358",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0174:382-538",
+"pred": [
+"FACTS",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0174:542-929",
+"pred": [
+"DECISION",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0174:933-1129",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0174:1130-1425",
+"pred": [
+"FACTS",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0174:1429-1601",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0174:1605-1811",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0179:2-392",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0179:396-745",
+"pred": [
+"FACTS",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0179:749-1184",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0179:1266-1358",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0179:1362-1529",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0179:1533-1639",
+"pred": [
+"ARGUMENT_PLAINTIFF",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0179:1643-1690",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0179:1694-3563",
+"pred": [
+"LAW_REFERENCE",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0179:1800-3563",
+"pred": [
+"LAW_REFERENCE",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0179:3567-3732",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0179:3736-3773",
+"pred": [
+"PREAMBLE",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0187:2-441",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0187:445-678",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0187:445-1405",
+"pred": [
+"FACTS",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0187:679-823",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0187:824-1051",
+"pred": [
+"FACTS",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0187:1052-1137",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0187:1138-1351",
+"pred": [
+"FACTS",
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0187:1352-1405",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0187:1409-2142",
+"pred": [
+"FACTS",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0187:1409-2960",
+"pred": [
+"FACTS",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0187:2143-2153",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0187:2154-2231",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0187:2232-2737",
+"pred": [
+"FACTS",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0187:2738-3105",
+"pred": [
+"FACTS",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0187:2964-3033",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0187:3037-3154",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0187:3106-3458",
+"pred": [
+"PREAMBLE",
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0187:3112-3154",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0187:3158-5793",
+"pred": [
+"LAW_REFERENCE",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0187:3201-4166",
+"pred": [
+"LAW_REFERENCE",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0187:3459-3604",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0187:3605-3678",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0187:3679-3890",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0187:3891-4048",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0187:4049-4166",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0187:4167-4539",
+"pred": [
+"ANALYSIS"
+],
+"truncated_input": false
+},
+{
+"id": "C0187:4539-4585",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0187:4586-5916",
+"pred": [
+"FACTS",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0187:5797-6565",
+"pred": [
+"LAW_REFERENCE",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0187:5917-5973",
+"pred": [],
+"truncated_input": false
+},
+{
+"id": "C0187:5974-6119",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0187:6120-6128",
+"pred": [],
+"truncated_input": false
+},
+{
+"id": "C0187:6129-6332",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0187:6333-6648",
+"pred": [
+"LAW_REFERENCE",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0187:6461-6565",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0187:6569-6718",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0187:6649-6718",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0187:6722-6952",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0187:6956-6990",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:2-819",
+"pred": [
+"PREAMBLE",
+"FACTS",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:823-1180",
+"pred": [
+"FACTS",
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:1184-1354",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:1358-1541",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:1545-1782",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:1786-1994",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:1998-2941",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:2945-5601",
+"pred": [
+"FACTS",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:5605-5795",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:5648-6307",
+"pred": [
+"PREAMBLE",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:6376-6954",
+"pred": [
+"FACTS",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:6522-6777",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:6781-6954",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:6955-7165",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:7169-7404",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:7408-7509",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:7510-7768",
+"pred": [
+"ARGUMENT_PLAINTIFF",
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:7772-8307",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:8308-8405",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:8409-8480",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:8484-9242",
+"pred": [
+"FACTS",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:8484-14019",
+"pred": [
+"FACTS",
+"DECISION_APPEAL"
+],
+"truncated_input": true
+},
+{
+"id": "C0188:9246-10792",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:10793-11090",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:11091-11166",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:11167-11521",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:11522-11878",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:11522-13109",
+"pred": [
+"LAW_REFERENCE",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:12099-12130",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:12452-12499",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:12502-12702",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:13110-14019",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:13695-13725",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:14023-14128",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:14132-14256",
+"pred": [
+"PREAMBLE",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:14406-14657",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:14661-14831",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:14835-15018",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:15022-15258",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:15262-15364",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:15365-15623",
+"pred": [
+"ARGUMENT_PLAINTIFF",
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:15627-15746",
+"pred": [
+"FACTS",
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:15747-15965",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:15966-16217",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:16261-16331",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:16335-17091",
+"pred": [
+"FACTS",
+"ANALYSIS",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:17095-17776",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:17777-18395",
+"pred": [
+"FACTS",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:18396-18999",
+"pred": [
+"FACTS",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:19000-19349",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:19350-19715",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:19716-20048",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:20049-20292",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:20293-20345",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:20348-20950",
+"pred": [
+"FACTS",
+"LAW_REFERENCE",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:20951-21449",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:21450-21639",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:21640-21699",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:21700-21845",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:21849-21954",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:21958-22005",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:22006-22238",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:22242-22667",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:22671-22922",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:22926-23096",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:23100-23297",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:23301-24415",
+"pred": [
+"FACTS",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:24419-24661",
+"pred": [
+"FACTS",
+"ANALYSIS"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:24665-25198",
+"pred": [
+"FACTS",
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:25293-26036",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:25980-34096",
+"pred": [
+"FACTS",
+"LAW_REFERENCE",
+"DECISION"
+],
+"truncated_input": true
+},
+{
+"id": "C0188:26040-26541",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:26545-27022",
+"pred": [
+"FACTS",
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:26784-26846",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:27026-27437",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:27441-28351",
+"pred": [
+"LAW_REFERENCE",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:28355-29028",
+"pred": [
+"LAW_REFERENCE",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:29032-29488",
+"pred": [
+"LAW_REFERENCE",
+"ANALYSIS"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:29032-29628",
+"pred": [
+"LAW_REFERENCE",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:29632-29997",
+"pred": [],
+"truncated_input": false
+},
+{
+"id": "C0188:30001-31795",
+"pred": [
+"LAW_REFERENCE",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:30051-30747",
+"pred": [
+"LAW_REFERENCE",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:31500-31795",
+"pred": [
+"LAW_REFERENCE",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:31799-32189",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:32191-32257",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:32261-32524",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:32528-32680",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:32528-32726",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:32681-32726",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:32730-32885",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:32889-33043",
+"pred": [
+"PREAMBLE",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:32889-34096",
+"pred": [
+"FACTS",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:33047-33800",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:33800-34096",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:34100-34342",
+"pred": [
+"FACTS",
+"ANALYSIS"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:34346-34879",
+"pred": [
+"FACTS",
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:34974-35717",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:35661-43777",
+"pred": [
+"FACTS",
+"LAW_REFERENCE",
+"DECISION"
+],
+"truncated_input": true
+},
+{
+"id": "C0188:35721-36095",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:36097-36222",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:36226-36703",
+"pred": [
+"FACTS",
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:36465-36527",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:36465-36586",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:36707-37118",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:37122-38032",
+"pred": [
+"LAW_REFERENCE",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:38036-38709",
+"pred": [
+"LAW_REFERENCE",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:38713-39278",
+"pred": [
+"LAW_REFERENCE",
+"ANALYSIS"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:38713-39309",
+"pred": [
+"LAW_REFERENCE",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:39313-39678",
+"pred": [],
+"truncated_input": false
+},
+{
+"id": "C0188:39682-41476",
+"pred": [
+"LAW_REFERENCE",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:39732-40428",
+"pred": [
+"LAW_REFERENCE",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:41181-41476",
+"pred": [
+"LAW_REFERENCE",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:41480-41870",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:41872-41938",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:41942-42205",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:42209-42361",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:42209-42407",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:42362-42407",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:42411-42566",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:42570-42724",
+"pred": [
+"PREAMBLE",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:42728-43481",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:42735-43777",
+"pred": [
+"FACTS",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:43481-43777",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:43781-44023",
+"pred": [
+"FACTS",
+"ANALYSIS"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:44027-44560",
+"pred": [
+"FACTS",
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:44655-45398",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:45402-45776",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:45778-45903",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:45907-46384",
+"pred": [
+"FACTS",
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:46146-46267",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:46388-46799",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:46803-47713",
+"pred": [
+"LAW_REFERENCE",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:47717-48390",
+"pred": [
+"LAW_REFERENCE",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:48394-48850",
+"pred": [
+"LAW_REFERENCE",
+"ANALYSIS"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:48394-48990",
+"pred": [
+"LAW_REFERENCE",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:48994-49359",
+"pred": [],
+"truncated_input": false
+},
+{
+"id": "C0188:49363-51157",
+"pred": [
+"LAW_REFERENCE",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:51161-51551",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:51553-51619",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:51623-51886",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:51890-52088",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:52092-52247",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:52253-52407",
+"pred": [
+"PREAMBLE",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:52411-53460",
+"pred": [
+"FACTS",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:53464-53706",
+"pred": [
+"FACTS",
+"ANALYSIS"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:53710-54243",
+"pred": [
+"FACTS",
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:54338-55081",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:55085-55459",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:55461-55586",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:55590-56067",
+"pred": [
+"FACTS",
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:55829-55950",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:56071-56482",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:56486-57396",
+"pred": [
+"LAW_REFERENCE",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:57400-58073",
+"pred": [
+"LAW_REFERENCE",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:58077-58528",
+"pred": [
+"LAW_REFERENCE",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:58077-58673",
+"pred": [
+"LAW_REFERENCE",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:58677-59042",
+"pred": [],
+"truncated_input": false
+},
+{
+"id": "C0188:59046-60840",
+"pred": [
+"LAW_REFERENCE",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:60844-61234",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:61236-61302",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:61306-61569",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:61573-61771",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:61726-61771",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:61775-61930",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:61936-62121",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:62125-62550",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:62554-62805",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:62809-62979",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:62983-63180",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:63184-64298",
+"pred": [
+"FACTS",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:64302-64544",
+"pred": [
+"FACTS",
+"ANALYSIS"
+],
+"truncated_input": false
+},
+{
+"id": "C0188:64548-65125",
+"pred": [
+"FACTS",
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0190:0-145",
+"pred": [
+"PREAMBLE",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0190:228-362",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0190:366-649",
+"pred": [
+"FACTS",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0190:653-1205",
+"pred": [
+"FACTS",
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0190:1209-1695",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0190:1699-4956",
+"pred": [
+"FACTS",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0190:4960-5006",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0190:5010-6036",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"LAW_REFERENCE",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0190:6040-6496",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0190:6500-6779",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0190:6783-6887",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0190:6891-7581",
+"pred": [
+"PREAMBLE",
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0190:7583-7751",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0190:7755-7945",
+"pred": [
+"ARGUMENT_PLAINTIFF",
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0190:7949-8046",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0190:8050-8160",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0190:8164-8261",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0190:8262-8368",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0190:8372-8475",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0190:8479-8960",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0190:8964-9316",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0190:9320-9473",
+"pred": [
+"DECISION",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0190:9477-9599",
+"pred": [
+"PREAMBLE",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0190:9601-9768",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0190:9772-9957",
+"pred": [
+"ARGUMENT_PLAINTIFF",
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0190:9961-10058",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0190:10062-10173",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0190:10177-10273",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0190:10275-10333",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0190:10385-10964",
+"pred": [
+"FACTS",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0190:10968-11174",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0190:11175-11319",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0190:11323-11475",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:1-989",
+"pred": [
+"PREAMBLE",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:1072-1197",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:1203-1268",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:1270-1332",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:1334-1397",
+"pred": [
+"ARGUMENT_PLAINTIFF"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:1399-1470",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:1472-1539",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:1541-1616",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:1618-1690",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:1692-1764",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:1766-1836",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:1838-1905",
+"pred": [],
+"truncated_input": false
+},
+{
+"id": "C0194:1907-1975",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:1979-2048",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:2050-2123",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:2125-2151",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:2157-2217",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:2223-2285",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:2287-2309",
+"pred": [],
+"truncated_input": false
+},
+{
+"id": "C0194:2315-2330",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:2332-2366",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:2372-2449",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:2451-2521",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:2523-2586",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:2588-2614",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:2620-2684",
+"pred": [
+"ARGUMENT_PLAINTIFF"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:2686-2754",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:2756-2828",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:2830-2896",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:2898-2968",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:2970-3039",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:3041-3117",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:3119-3184",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:3186-3261",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:3263-3331",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:3333-3411",
+"pred": [],
+"truncated_input": false
+},
+{
+"id": "C0194:3413-3419",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:3435-3504",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:3506-3580",
+"pred": [
+"LAW_REFERENCE",
+"ANALYSIS"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:3586-3662",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:3686-3720",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:3726-3792",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:3794-3863",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:3865-3935",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:3937-4008",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:4010-4084",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:4086-4157",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:4159-4233",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:4239-4274",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:4280-4346",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:4348-4420",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:4422-4498",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:4500-4572",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:4574-4647",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:4649-4719",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:4721-4794",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:4796-4866",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:4872-4942",
+"pred": [
+"ARGUMENT_PLAINTIFF"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:4958-4973",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:4975-5009",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:5011-5090",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:5092-5162",
+"pred": [
+"ARGUMENT_PLAINTIFF",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:5164-5240",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:5242-5319",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:5321-5388",
+"pred": [
+"PREAMBLE",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:5390-5467",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:5469-5533",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:5535-5600",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:5602-5673",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:5675-5753",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:5755-5828",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:5830-5902",
+"pred": [],
+"truncated_input": false
+},
+{
+"id": "C0194:5904-5917",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:5919-5985",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:5987-6063",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:6065-6129",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:6131-6204",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:6206-6275",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:6277-6354",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:6405-6469",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:6471-6546",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:6548-6626",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:6628-6697",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:6703-6772",
+"pred": [],
+"truncated_input": false
+},
+{
+"id": "C0194:6774-6842",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:6844-6856",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:6862-6925",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:6927-7000",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:7002-7076",
+"pred": [
+"PREAMBLE",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:7078-7113",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:7119-7184",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:7186-7258",
+"pred": [
+"ANALYSIS"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:7260-7328",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:7332-7360",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:7366-7431",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:7433-7497",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:7499-7567",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:7573-7644",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:7658-7690",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:7692-7766",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:7768-7840",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:7842-7912",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:7914-7984",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:7986-8053",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:8055-8127",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:8129-8204",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:8206-8272",
+"pred": [],
+"truncated_input": false
+},
+{
+"id": "C0194:8281-8307",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:8323-8384",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:8386-8451",
+"pred": [
+"DECISION",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0194:8457-8473",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:1-1002",
+"pred": [
+"PREAMBLE",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:1494-1604",
+"pred": [
+"PREAMBLE",
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:1610-1678",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:1680-1750",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:1752-1827",
+"pred": [
+"ARGUMENT_PLAINTIFF"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:1829-1889",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:1895-1916",
+"pred": [],
+"truncated_input": false
+},
+{
+"id": "C0197:1918-1936",
+"pred": [],
+"truncated_input": false
+},
+{
+"id": "C0197:1938-1969",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:1975-2020",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:2026-2084",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:2086-2159",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:2161-2227",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:2229-2299",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:2301-2371",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:2373-2442",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:2444-2516",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:2518-2588",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:2590-2660",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:2662-2733",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:2735-2810",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:2812-2878",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:2880-2943",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:2945-3013",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:3015-3024",
+"pred": [],
+"truncated_input": false
+},
+{
+"id": "C0197:3030-3092",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:3094-3167",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:3169-3240",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:3242-3318",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:3335-3376",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:3382-3456",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:3458-3510",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:3516-3589",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:3591-3664",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:3666-3715",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:3717-3789",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:3791-3845",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:3847-3911",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:3913-3980",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:3982-4047",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:4111-4175",
+"pred": [
+"ARGUMENT_DEFENDANT",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:4177-4243",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:4245-4320",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:4322-4394",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:4396-4473",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:4475-4544",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:4627-4693",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:4695-4769",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:4771-4830",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:4836-4906",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:4910-4978",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:4980-5047",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:5049-5116",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:5118-5191",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:5193-5270",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:5272-5345",
+"pred": [],
+"truncated_input": false
+},
+{
+"id": "C0197:5347-5416",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:5418-5485",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:5487-5563",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:5565-5604",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:5610-5680",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:5682-5751",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:5753-5827",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:5829-5900",
+"pred": [
+"FACTS",
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:5902-5970",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:6035-6077",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:6083-6150",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:6152-6225",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:6227-6295",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:6297-6371",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:6373-6435",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:6437-6512",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:6514-6551",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:6614-6681",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:6683-6753",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:6755-6828",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:6830-6904",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:6856-6895",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:6906-6971",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:6973-7045",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:7047-7113",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:7115-7184",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:7186-7258",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:7260-7332",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:7334-7375",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:7483-7552",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:7554-7623",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:7625-7694",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:7696-7766",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:7768-7805",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:7817-7881",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0197:7908-8139",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0198:1-794",
+"pred": [
+"PREAMBLE",
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0198:796-885",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0198:887-977",
+"pred": [
+"FACTS",
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0198:979-1077",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0198:1079-1170",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0198:1172-1274",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0198:1276-1363",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0198:1373-1472",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0198:1625-1729",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0198:1731-1829",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0198:1831-1936",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0198:1938-2034",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0198:2036-2138",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0198:2140-2237",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0198:2239-2344",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0198:2347-2441",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0198:2443-2537",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0198:2539-2632",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0198:2634-2731",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0198:2733-2835",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0198:2837-2933",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0198:2936-3037",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0198:3039-3133",
+"pred": [
+"PREAMBLE",
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0198:3135-3237",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0198:3239-3335",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0198:3337-3435",
+"pred": [
+"ANALYSIS"
+],
+"truncated_input": false
+},
+{
+"id": "C0198:3437-3533",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0198:3535-3635",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0198:3637-3731",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0198:3733-3805",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0198:3974-4056",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0198:4058-4146",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0198:4148-4243",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0198:4245-4342",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0198:4344-4452",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0198:4454-4557",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0198:4559-4639",
+"pred": [
+"FACTS",
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0198:4641-4731",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0198:4737-4828",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0198:4830-4936",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0198:4938-5035",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0198:5037-5140",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0198:5142-5240",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0198:5242-5349",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0198:5383-5482",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0198:5488-5594",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0198:5600-5615",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0198:5621-5671",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0198:5677-5785",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0198:5787-5886",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0198:5888-5987",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0198:5989-6089",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0198:6091-6192",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0198:6198-6286",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0198:6457-6560",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0198:6562-6662",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0198:6664-6764",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0198:6766-6810",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+},
+{
+"id": "C0198:6812-6857",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0198:6863-6920",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0198:6922-6974",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0198:6980-7059",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0198:7065-7087",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0198:7089-7126",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0198:7132-7223",
+"pred": [
+"FACTS"
+],
+"truncated_input": false
+},
+{
+"id": "C0198:7229-7322",
+"pred": [],
+"truncated_input": false
+},
+{
+"id": "C0198:7328-7351",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0198:7353-7400",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0198:7426-7466",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0198:7468-7551",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0198:7553-7641",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0198:7643-7745",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0198:7747-7842",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0198:7844-7894",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0198:7997-8058",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0198:8064-8112",
+"pred": [
+"LAW_REFERENCE"
+],
+"truncated_input": false
+},
+{
+"id": "C0198:8119-8146",
+"pred": [
+"ARGUMENT_DEFENDANT"
+],
+"truncated_input": false
+},
+{
+"id": "C0198:8250-8265",
+"pred": [
+"PREAMBLE"
+],
+"truncated_input": false
+},
+{
+"id": "C0198:8271-8293",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0198:8295-8378",
+"pred": [
+"DECISION"
+],
+"truncated_input": false
+},
+{
+"id": "C0198:8384-8486",
+"pred": [
+"DECISION_APPEAL"
+],
+"truncated_input": false
+}
+]
