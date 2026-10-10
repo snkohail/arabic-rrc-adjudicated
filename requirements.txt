@@ -1,9 +1,0 @@
-numpy>=1.24
-scikit-learn>=1.3
-torch>=2.1
-transformers>=4.34
-pytest>=7
-# S2-B2 lexical CRF
-sklearn-crfsuite>=0.3
-# grid_v3 (Stanza Arabic sentence segmentation; sensitivity analysis only)
-stanza>=1.11
