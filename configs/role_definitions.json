@@ -1,0 +1,48 @@
+{
+  "_status": "VERIFIED — concise definitions derived from Arabic Legal Annotation Guidelines v1.0",
+
+  "PREAMBLE": {
+    "en": "Opening material before the substantive narrative: court and case identification, session and panel information, formal opening formulae, and introductory recital.",
+    "ar": "الديباجة وافتتاحية الحكم: بيانات المحكمة والقضية والجلسة والهيئة، والصيغ الافتتاحية الرسمية، والتمهيد السابق للسرد الموضوعي."
+  },
+
+  "FACTS": {
+    "en": "Neutral narration of the case background and procedural history: what happened, was reported, filed, or testified, without the court's evaluation or a party's request or defence.",
+    "ar": "الوقائع: السرد المحايد لخلفية القضية وتاريخها الإجرائي وما حدث أو أُبلغ عنه أو قُدم أو ورد في الشهادة، دون تقييم المحكمة أو عرضه كطلب أو دفاع لأحد الأطراف."
+  },
+
+  "ISSUE": {
+    "en": "The criminal charge or count, or the precise civil claim or question that the court must decide.",
+    "ar": "التهم وموضوع النزاع: التهمة أو الاتهامات في الدعوى الجزائية، أو المطالبة أو المسألة المحددة التي يتعين على المحكمة الفصل فيها."
+  },
+
+  "ARGUMENT_PLAINTIFF": {
+    "en": "Statements, submissions, and requests attributed to the claimant side: plaintiff or prosecution pressing the case; under the project convention, the respondent's submissions on appeal.",
+    "ar": "دفوع وطلبات جهة الادعاء: أقوال ودفوع وطلبات المدعي أو النيابة العامة عند مباشرة الاتهام؛ ووفق اتفاقية المشروع، دفوع المستأنف ضده في مرحلة الاستئناف."
+  },
+
+  "ARGUMENT_DEFENDANT": {
+    "en": "Statements, denials, defences, and requests attributed to the defending side: defendant or accused; under the project convention, the appellant's submissions on appeal.",
+    "ar": "دفوع جهة الدفاع: أقوال وإنكار ودفوع وطلبات المدعى عليه أو المتهم؛ ووفق اتفاقية المشروع، دفوع المستأنف في مرحلة الاستئناف."
+  },
+
+  "LAW_REFERENCE": {
+    "en": "A unit whose function is to cite or quote legal authority, including statutes, articles, regulations, decrees-law, or explicitly attributed settled legal principles.",
+    "ar": "السند القانوني: وحدة وظيفتها الاستشهاد بقاعدة أو نص قانوني أو اقتباسه، بما في ذلك القوانين والمواد واللوائح والمراسيم بقوانين والمبادئ القانونية المستقرة المنسوبة صراحةً."
+  },
+
+  "ANALYSIS": {
+    "en": "The court's own evaluative reasoning: weighing evidence, assessing credibility, answering defences, applying law to facts, and drawing conclusions toward the outcome.",
+    "ar": "حيثيات المحكمة أو التسبيب: تقييم المحكمة للأدلة والمصداقية، والرد على الدفوع، وتطبيق القانون على الوقائع، واستخلاص النتائج المؤدية إلى الحكم."
+  },
+
+  "DECISION": {
+    "en": "The operative part of a first-instance judgment: the merits ruling and what the court orders or decides.",
+    "ar": "المنطوق في أول درجة: الجزء التنفيذي من حكم محكمة أول درجة وما تقضي أو تأمر به في موضوع الدعوى."
+  },
+
+  "DECISION_APPEAL": {
+    "en": "Operative outcomes above first instance or outside the merits, including appeal or cassation outcomes and procedural or prosecutorial orders.",
+    "ar": "منطوق الطعن والأوامر الإجرائية: النتائج التنفيذية في الاستئناف أو الطعن أو التمييز، وكذلك الأوامر الإجرائية أو أوامر النيابة الواقعة خارج الفصل في موضوع الدعوى."
+  }
+}
