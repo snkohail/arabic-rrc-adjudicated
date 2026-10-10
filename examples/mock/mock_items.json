@@ -1,0 +1,213 @@
+{
+ "note": "16 synthetic showcase items: 4 judgments x 4 structural forms",
+ "items": [
+  {
+   "form": 1,
+   "name": "single_role_region",
+   "case_id": "M0001",
+   "begin": 0,
+   "end": 172,
+   "labels": [
+    "PREAMBLE"
+   ]
+  },
+  {
+   "form": 2,
+   "name": "multi_role_region",
+   "case_id": "M0001",
+   "begin": 303,
+   "end": 411,
+   "labels": [
+    "ARGUMENT_PLAINTIFF",
+    "FACTS"
+   ]
+  },
+  {
+   "form": 3,
+   "name": "nested_structure",
+   "case_id": "M0001",
+   "outer": [
+    845,
+    1147
+   ],
+   "inner": [
+    937,
+    1066
+   ],
+   "outer_labels": [
+    "ANALYSIS"
+   ],
+   "inner_labels": [
+    "LAW_REFERENCE"
+   ]
+  },
+  {
+   "form": 4,
+   "name": "ambiguous_projection_sentence",
+   "case_id": "M0001",
+   "begin": 613,
+   "end": 736,
+   "sent_idx": 5,
+   "tied_roles": [
+    "ANALYSIS",
+    "ARGUMENT_DEFENDANT"
+   ]
+  },
+  {
+   "form": 1,
+   "name": "single_role_region",
+   "case_id": "M0002",
+   "begin": 1040,
+   "end": 1145,
+   "labels": [
+    "DECISION"
+   ]
+  },
+  {
+   "form": 2,
+   "name": "multi_role_region",
+   "case_id": "M0002",
+   "begin": 263,
+   "end": 372,
+   "labels": [
+    "ARGUMENT_PLAINTIFF",
+    "FACTS"
+   ]
+  },
+  {
+   "form": 3,
+   "name": "nested_structure",
+   "case_id": "M0002",
+   "outer": [
+    776,
+    1038
+   ],
+   "inner": [
+    860,
+    988
+   ],
+   "outer_labels": [
+    "ANALYSIS"
+   ],
+   "inner_labels": [
+    "LAW_REFERENCE"
+   ]
+  },
+  {
+   "form": 4,
+   "name": "ambiguous_projection_sentence",
+   "case_id": "M0002",
+   "begin": 577,
+   "end": 687,
+   "sent_idx": 5,
+   "tied_roles": [
+    "ANALYSIS",
+    "ARGUMENT_DEFENDANT"
+   ]
+  },
+  {
+   "form": 1,
+   "name": "single_role_region",
+   "case_id": "M0003",
+   "begin": 359,
+   "end": 440,
+   "labels": [
+    "ISSUE"
+   ]
+  },
+  {
+   "form": 2,
+   "name": "multi_role_region",
+   "case_id": "M0003",
+   "begin": 249,
+   "end": 358,
+   "labels": [
+    "ARGUMENT_PLAINTIFF",
+    "FACTS"
+   ]
+  },
+  {
+   "form": 3,
+   "name": "nested_structure",
+   "case_id": "M0003",
+   "outer": [
+    729,
+    986
+   ],
+   "inner": [
+    794,
+    923
+   ],
+   "outer_labels": [
+    "ANALYSIS"
+   ],
+   "inner_labels": [
+    "LAW_REFERENCE"
+   ]
+  },
+  {
+   "form": 4,
+   "name": "ambiguous_projection_sentence",
+   "case_id": "M0003",
+   "begin": 541,
+   "end": 644,
+   "sent_idx": 5,
+   "tied_roles": [
+    "ANALYSIS",
+    "ARGUMENT_DEFENDANT"
+   ]
+  },
+  {
+   "form": 1,
+   "name": "single_role_region",
+   "case_id": "M0004",
+   "begin": 122,
+   "end": 241,
+   "labels": [
+    "FACTS"
+   ]
+  },
+  {
+   "form": 2,
+   "name": "multi_role_region",
+   "case_id": "M0004",
+   "begin": 242,
+   "end": 343,
+   "labels": [
+    "ARGUMENT_PLAINTIFF",
+    "FACTS"
+   ]
+  },
+  {
+   "form": 3,
+   "name": "nested_structure",
+   "case_id": "M0004",
+   "outer": [
+    695,
+    919
+   ],
+   "inner": [
+    745,
+    862
+   ],
+   "outer_labels": [
+    "ANALYSIS"
+   ],
+   "inner_labels": [
+    "LAW_REFERENCE"
+   ]
+  },
+  {
+   "form": 4,
+   "name": "ambiguous_projection_sentence",
+   "case_id": "M0004",
+   "begin": 509,
+   "end": 601,
+   "sent_idx": 5,
+   "tied_roles": [
+    "ANALYSIS",
+    "ARGUMENT_DEFENDANT"
+   ]
+  }
+ ]
+}
