@@ -1,4 +1,4 @@
-# arabic-rrc-adjudicated
+# Arabic-RCC-Adjudicated
 
 Code for rhetorical role classification (RRC) of Arabic court judgments, where the gold
 annotation allows multiple roles on one span and nested spans.
