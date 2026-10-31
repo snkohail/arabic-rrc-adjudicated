@@ -1,0 +1,4 @@
+{
+  "annotation_root": "/path/to/private/annotation",
+  "data_dir": "/path/to/private/rrc-data"
+}
