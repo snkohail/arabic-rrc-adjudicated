@@ -1,0 +1,1040 @@
+{
+ "checkpoint": "aubmindlab/bert-base-arabertv2",
+ "revision": "97522efce17efa33036ac619802d5cec238dcad9",
+ "control_of": "m1_arabert",
+ "tokenizer": "aubmindlab/bert-base-arabertv2 (fast tokenizer, raw text, no Farasa segmentation)",
+ "long_span_handling": {
+  "window_tokens": 510,
+  "stride_tokens": 128,
+  "pooling": "mean of per-window [CLS] hidden states"
+ },
+ "hyperparameters": {
+  "lr_grid": [
+   2e-05,
+   3e-05
+  ],
+  "epochs": 5,
+  "batch_examples": 16,
+  "max_windows_per_batch": 48,
+  "warmup_ratio": 0.1,
+  "weight_decay": 0.01,
+  "dropout": 0.1,
+  "grad_clip": 1.0,
+  "optimizer": "AdamW",
+  "schedule": "linear decay with warmup",
+  "loss": "cross-entropy against soft targets (1/|G| on each gold role)",
+  "selection_seed": 13,
+  "seeds": [
+   13,
+   37,
+   73
+  ],
+  "precision": "fp32",
+  "output_layer": "9-way softmax",
+  "decoding": "argmax only",
+  "selection_criterion": "VAL set-F1 under argmax (same metric as the sigmoid models)"
+ },
+ "lr_selection": [
+  {
+   "lr": 2e-05,
+   "seed": 13,
+   "best_epoch": 5,
+   "val_set_f1": 0.7405,
+   "val_exact_set_acc": 0.6726
+  },
+  {
+   "lr": 3e-05,
+   "seed": 13,
+   "best_epoch": 5,
+   "val_set_f1": 0.7446,
+   "val_exact_set_acc": 0.6755
+  }
+ ],
+ "chosen_lr": 3e-05,
+ "runs": {
+  "lr2e-05_seed13": {
+   "model": "m1s_arabert",
+   "checkpoint": "aubmindlab/bert-base-arabertv2",
+   "lr": 2e-05,
+   "seed": 13,
+   "history": [
+    {
+     "epoch": 1,
+     "train_loss": 1.2299,
+     "val_set_f1": 0.7109,
+     "val_exact_set_acc": 0.6453,
+     "val_macro_f1": 0.6618,
+     "seconds": 549
+    },
+    {
+     "epoch": 2,
+     "train_loss": 0.6756,
+     "val_set_f1": 0.7321,
+     "val_exact_set_acc": 0.6637,
+     "val_macro_f1": 0.6891,
+     "seconds": 545
+    },
+    {
+     "epoch": 3,
+     "train_loss": 0.5042,
+     "val_set_f1": 0.7341,
+     "val_exact_set_acc": 0.6652,
+     "val_macro_f1": 0.6966,
+     "seconds": 538
+    },
+    {
+     "epoch": 4,
+     "train_loss": 0.4029,
+     "val_set_f1": 0.7373,
+     "val_exact_set_acc": 0.6689,
+     "val_macro_f1": 0.6945,
+     "seconds": 532
+    },
+    {
+     "epoch": 5,
+     "train_loss": 0.3295,
+     "val_set_f1": 0.7405,
+     "val_exact_set_acc": 0.6726,
+     "val_macro_f1": 0.7158,
+     "seconds": 531
+    }
+   ],
+   "best": {
+    "epoch": 5,
+    "val_set_f1": 0.7405,
+    "val_macro_f1": 0.7158,
+    "val_exact_set_acc": 0.6726
+   },
+   "val": {
+    "set_f1": 0.7405,
+    "exact_set_acc": 0.6726,
+    "macro_f1": 0.7158,
+    "n": 1359
+   },
+   "test": {
+    "n": 1846,
+    "n_multi_role": 165,
+    "paired_against": "m1_arabert lr3e-05_seed13 (threshold 0.2)",
+    "softmax_argmax": {
+     "all": {
+      "n": 1846,
+      "set_f1": 0.7468,
+      "macro_f1": 0.7196,
+      "exact_set_acc": 0.6928
+     },
+     "multi_role": {
+      "n": 165,
+      "set_f1": 0.604,
+      "macro_f1": 0.4712,
+      "exact_set_acc": 0.0
+     },
+     "per_role_f1": {
+      "PREAMBLE": 0.9339,
+      "FACTS": 0.6699,
+      "ISSUE": 0.772,
+      "ARGUMENT_PLAINTIFF": 0.3871,
+      "ARGUMENT_DEFENDANT": 0.659,
+      "LAW_REFERENCE": 0.778,
+      "ANALYSIS": 0.7966,
+      "DECISION": 0.7459,
+      "DECISION_APPEAL": 0.7342
+     },
+     "ci_all": {
+      "set_f1": {
+       "point": 0.7468,
+       "ci_low": 0.6979,
+       "ci_high": 0.792,
+       "n_replicates": 5000,
+       "seed": 13,
+       "n_documents": 30
+      },
+      "exact_set_acc": {
+       "point": 0.6928,
+       "ci_low": 0.6303,
+       "ci_high": 0.7422,
+       "n_replicates": 5000,
+       "seed": 13,
+       "n_documents": 30
+      }
+     },
+     "ci_multi_role": {
+      "set_f1": {
+       "point": 0.604,
+       "ci_low": 0.5649,
+       "ci_high": 0.642,
+       "n_replicates": 5000,
+       "seed": 13,
+       "n_documents": 25
+      },
+      "exact_set_acc": {
+       "point": 0.0,
+       "ci_low": 0.0,
+       "ci_high": 0.0,
+       "n_replicates": 5000,
+       "seed": 13,
+       "n_documents": 25
+      }
+     }
+    },
+    "reference_sigmoid_threshold": {
+     "all": {
+      "n": 1846,
+      "set_f1": 0.7616,
+      "macro_f1": 0.7183,
+      "exact_set_acc": 0.6354
+     },
+     "multi_role": {
+      "n": 165,
+      "set_f1": 0.7817,
+      "macro_f1": 0.6235,
+      "exact_set_acc": 0.4485
+     }
+    },
+    "reference_sigmoid_argmax": {
+     "all": {
+      "n": 1846,
+      "set_f1": 0.753,
+      "macro_f1": 0.7278,
+      "exact_set_acc": 0.6961
+     },
+     "multi_role": {
+      "n": 165,
+      "set_f1": 0.6364,
+      "macro_f1": 0.5378,
+      "exact_set_acc": 0.0
+     }
+    },
+    "paired_softmax_minus_sigmoid_threshold": {
+     "multi_role": {
+      "set_f1": {
+       "a": 0.604,
+       "b": 0.7817,
+       "diff_point": -0.1777,
+       "diff_ci_low": -0.2029,
+       "diff_ci_high": -0.1503,
+       "n_replicates": 5000,
+       "seed": 13,
+       "n_documents": 25
+      },
+      "exact_set_acc": {
+       "a": 0.0,
+       "b": 0.4485,
+       "diff_point": -0.4485,
+       "diff_ci_low": -0.5541,
+       "diff_ci_high": -0.3598,
+       "n_replicates": 5000,
+       "seed": 13,
+       "n_documents": 25
+      }
+     },
+     "all": {
+      "set_f1": {
+       "a": 0.7468,
+       "b": 0.7616,
+       "diff_point": -0.0148,
+       "diff_ci_low": -0.0302,
+       "diff_ci_high": 0.0006,
+       "n_replicates": 5000,
+       "seed": 13,
+       "n_documents": 30
+      },
+      "exact_set_acc": {
+       "a": 0.6928,
+       "b": 0.6354,
+       "diff_point": 0.0574,
+       "diff_ci_low": 0.0275,
+       "diff_ci_high": 0.0868,
+       "n_replicates": 5000,
+       "seed": 13,
+       "n_documents": 30
+      }
+     }
+    },
+    "paired_softmax_minus_sigmoid_argmax": {
+     "multi_role": {
+      "set_f1": {
+       "a": 0.604,
+       "b": 0.6364,
+       "diff_point": -0.0323,
+       "diff_ci_low": -0.0717,
+       "diff_ci_high": 0.0,
+       "n_replicates": 5000,
+       "seed": 13,
+       "n_documents": 25
+      },
+      "exact_set_acc": {
+       "a": 0.0,
+       "b": 0.0,
+       "diff_point": 0.0,
+       "diff_ci_low": 0.0,
+       "diff_ci_high": 0.0,
+       "n_replicates": 5000,
+       "seed": 13,
+       "n_documents": 25
+      }
+     },
+     "all": {
+      "set_f1": {
+       "a": 0.7468,
+       "b": 0.753,
+       "diff_point": -0.0061,
+       "diff_ci_low": -0.0228,
+       "diff_ci_high": 0.0095,
+       "n_replicates": 5000,
+       "seed": 13,
+       "n_documents": 30
+      },
+      "exact_set_acc": {
+       "a": 0.6928,
+       "b": 0.6961,
+       "diff_point": -0.0033,
+       "diff_ci_low": -0.0197,
+       "diff_ci_high": 0.0117,
+       "n_replicates": 5000,
+       "seed": 13,
+       "n_documents": 30
+      }
+     }
+    }
+   }
+  },
+  "lr3e-05_seed13": {
+   "model": "m1s_arabert",
+   "checkpoint": "aubmindlab/bert-base-arabertv2",
+   "lr": 3e-05,
+   "seed": 13,
+   "history": [
+    {
+     "epoch": 1,
+     "train_loss": 1.1886,
+     "val_set_f1": 0.718,
+     "val_exact_set_acc": 0.6497,
+     "val_macro_f1": 0.6763,
+     "seconds": 546
+    },
+    {
+     "epoch": 2,
+     "train_loss": 0.6566,
+     "val_set_f1": 0.7258,
+     "val_exact_set_acc": 0.6578,
+     "val_macro_f1": 0.6849,
+     "seconds": 539
+    },
+    {
+     "epoch": 3,
+     "train_loss": 0.4728,
+     "val_set_f1": 0.7385,
+     "val_exact_set_acc": 0.6703,
+     "val_macro_f1": 0.7016,
+     "seconds": 530
+    },
+    {
+     "epoch": 4,
+     "train_loss": 0.3612,
+     "val_set_f1": 0.7443,
+     "val_exact_set_acc": 0.6748,
+     "val_macro_f1": 0.7059,
+     "seconds": 528
+    },
+    {
+     "epoch": 5,
+     "train_loss": 0.2829,
+     "val_set_f1": 0.7446,
+     "val_exact_set_acc": 0.6755,
+     "val_macro_f1": 0.7123,
+     "seconds": 528
+    }
+   ],
+   "best": {
+    "epoch": 5,
+    "val_set_f1": 0.7446,
+    "val_macro_f1": 0.7123,
+    "val_exact_set_acc": 0.6755
+   },
+   "val": {
+    "set_f1": 0.7446,
+    "exact_set_acc": 0.6755,
+    "macro_f1": 0.7123,
+    "n": 1359
+   },
+   "test": {
+    "n": 1846,
+    "n_multi_role": 165,
+    "paired_against": "m1_arabert lr3e-05_seed13 (threshold 0.2)",
+    "softmax_argmax": {
+     "all": {
+      "n": 1846,
+      "set_f1": 0.7602,
+      "macro_f1": 0.7361,
+      "exact_set_acc": 0.7059
+     },
+     "multi_role": {
+      "n": 165,
+      "set_f1": 0.6081,
+      "macro_f1": 0.6063,
+      "exact_set_acc": 0.0
+     },
+     "per_role_f1": {
+      "PREAMBLE": 0.9375,
+      "FACTS": 0.6884,
+      "ISSUE": 0.7625,
+      "ARGUMENT_PLAINTIFF": 0.4068,
+      "ARGUMENT_DEFENDANT": 0.7031,
+      "LAW_REFERENCE": 0.7753,
+      "ANALYSIS": 0.8066,
+      "DECISION": 0.7701,
+      "DECISION_APPEAL": 0.775
+     },
+     "ci_all": {
+      "set_f1": {
+       "point": 0.7602,
+       "ci_low": 0.711,
+       "ci_high": 0.8034,
+       "n_replicates": 5000,
+       "seed": 13,
+       "n_documents": 30
+      },
+      "exact_set_acc": {
+       "point": 0.7059,
+       "ci_low": 0.642,
+       "ci_high": 0.7546,
+       "n_replicates": 5000,
+       "seed": 13,
+       "n_documents": 30
+      }
+     },
+     "ci_multi_role": {
+      "set_f1": {
+       "point": 0.6081,
+       "ci_low": 0.5741,
+       "ci_high": 0.6382,
+       "n_replicates": 5000,
+       "seed": 13,
+       "n_documents": 25
+      },
+      "exact_set_acc": {
+       "point": 0.0,
+       "ci_low": 0.0,
+       "ci_high": 0.0,
+       "n_replicates": 5000,
+       "seed": 13,
+       "n_documents": 25
+      }
+     }
+    },
+    "reference_sigmoid_threshold": {
+     "all": {
+      "n": 1846,
+      "set_f1": 0.7616,
+      "macro_f1": 0.7183,
+      "exact_set_acc": 0.6354
+     },
+     "multi_role": {
+      "n": 165,
+      "set_f1": 0.7817,
+      "macro_f1": 0.6235,
+      "exact_set_acc": 0.4485
+     }
+    },
+    "reference_sigmoid_argmax": {
+     "all": {
+      "n": 1846,
+      "set_f1": 0.753,
+      "macro_f1": 0.7278,
+      "exact_set_acc": 0.6961
+     },
+     "multi_role": {
+      "n": 165,
+      "set_f1": 0.6364,
+      "macro_f1": 0.5378,
+      "exact_set_acc": 0.0
+     }
+    },
+    "paired_softmax_minus_sigmoid_threshold": {
+     "multi_role": {
+      "set_f1": {
+       "a": 0.6081,
+       "b": 0.7817,
+       "diff_point": -0.1737,
+       "diff_ci_low": -0.2125,
+       "diff_ci_high": -0.1414,
+       "n_replicates": 5000,
+       "seed": 13,
+       "n_documents": 25
+      },
+      "exact_set_acc": {
+       "a": 0.0,
+       "b": 0.4485,
+       "diff_point": -0.4485,
+       "diff_ci_low": -0.5541,
+       "diff_ci_high": -0.3598,
+       "n_replicates": 5000,
+       "seed": 13,
+       "n_documents": 25
+      }
+     },
+     "all": {
+      "set_f1": {
+       "a": 0.7602,
+       "b": 0.7616,
+       "diff_point": -0.0014,
+       "diff_ci_low": -0.0167,
+       "diff_ci_high": 0.012,
+       "n_replicates": 5000,
+       "seed": 13,
+       "n_documents": 30
+      },
+      "exact_set_acc": {
+       "a": 0.7059,
+       "b": 0.6354,
+       "diff_point": 0.0704,
+       "diff_ci_low": 0.0409,
+       "diff_ci_high": 0.0972,
+       "n_replicates": 5000,
+       "seed": 13,
+       "n_documents": 30
+      }
+     }
+    },
+    "paired_softmax_minus_sigmoid_argmax": {
+     "multi_role": {
+      "set_f1": {
+       "a": 0.6081,
+       "b": 0.6364,
+       "diff_point": -0.0283,
+       "diff_ci_low": -0.0606,
+       "diff_ci_high": 0.0,
+       "n_replicates": 5000,
+       "seed": 13,
+       "n_documents": 25
+      },
+      "exact_set_acc": {
+       "a": 0.0,
+       "b": 0.0,
+       "diff_point": 0.0,
+       "diff_ci_low": 0.0,
+       "diff_ci_high": 0.0,
+       "n_replicates": 5000,
+       "seed": 13,
+       "n_documents": 25
+      }
+     },
+     "all": {
+      "set_f1": {
+       "a": 0.7602,
+       "b": 0.753,
+       "diff_point": 0.0072,
+       "diff_ci_low": -0.0067,
+       "diff_ci_high": 0.0189,
+       "n_replicates": 5000,
+       "seed": 13,
+       "n_documents": 30
+      },
+      "exact_set_acc": {
+       "a": 0.7059,
+       "b": 0.6961,
+       "diff_point": 0.0098,
+       "diff_ci_low": -0.0053,
+       "diff_ci_high": 0.0223,
+       "n_replicates": 5000,
+       "seed": 13,
+       "n_documents": 30
+      }
+     }
+    }
+   }
+  },
+  "lr3e-05_seed37": {
+   "model": "m1s_arabert",
+   "checkpoint": "aubmindlab/bert-base-arabertv2",
+   "lr": 3e-05,
+   "seed": 37,
+   "history": [
+    {
+     "epoch": 1,
+     "train_loss": 1.1579,
+     "val_set_f1": 0.7142,
+     "val_exact_set_acc": 0.6461,
+     "val_macro_f1": 0.6799,
+     "seconds": 530
+    },
+    {
+     "epoch": 2,
+     "train_loss": 0.6382,
+     "val_set_f1": 0.7395,
+     "val_exact_set_acc": 0.6711,
+     "val_macro_f1": 0.693,
+     "seconds": 543
+    },
+    {
+     "epoch": 3,
+     "train_loss": 0.462,
+     "val_set_f1": 0.7505,
+     "val_exact_set_acc": 0.6821,
+     "val_macro_f1": 0.6981,
+     "seconds": 539
+    },
+    {
+     "epoch": 4,
+     "train_loss": 0.3472,
+     "val_set_f1": 0.7436,
+     "val_exact_set_acc": 0.674,
+     "val_macro_f1": 0.713,
+     "seconds": 543
+    },
+    {
+     "epoch": 5,
+     "train_loss": 0.2704,
+     "val_set_f1": 0.7493,
+     "val_exact_set_acc": 0.6784,
+     "val_macro_f1": 0.7159,
+     "seconds": 571
+    }
+   ],
+   "best": {
+    "epoch": 3,
+    "val_set_f1": 0.7505,
+    "val_macro_f1": 0.6981,
+    "val_exact_set_acc": 0.6821
+   },
+   "val": {
+    "set_f1": 0.7505,
+    "exact_set_acc": 0.6821,
+    "macro_f1": 0.6981,
+    "n": 1359
+   },
+   "test": {
+    "n": 1846,
+    "n_multi_role": 165,
+    "paired_against": "m1_arabert lr3e-05_seed37 (threshold 0.3)",
+    "softmax_argmax": {
+     "all": {
+      "n": 1846,
+      "set_f1": 0.7588,
+      "macro_f1": 0.7191,
+      "exact_set_acc": 0.7042
+     },
+     "multi_role": {
+      "n": 165,
+      "set_f1": 0.6101,
+      "macro_f1": 0.5798,
+      "exact_set_acc": 0.0
+     },
+     "per_role_f1": {
+      "PREAMBLE": 0.9258,
+      "FACTS": 0.6863,
+      "ISSUE": 0.7608,
+      "ARGUMENT_PLAINTIFF": 0.3288,
+      "ARGUMENT_DEFENDANT": 0.6988,
+      "LAW_REFERENCE": 0.784,
+      "ANALYSIS": 0.8059,
+      "DECISION": 0.7596,
+      "DECISION_APPEAL": 0.7222
+     },
+     "ci_all": {
+      "set_f1": {
+       "point": 0.7588,
+       "ci_low": 0.7056,
+       "ci_high": 0.8032,
+       "n_replicates": 5000,
+       "seed": 13,
+       "n_documents": 30
+      },
+      "exact_set_acc": {
+       "point": 0.7042,
+       "ci_low": 0.6385,
+       "ci_high": 0.7531,
+       "n_replicates": 5000,
+       "seed": 13,
+       "n_documents": 30
+      }
+     },
+     "ci_multi_role": {
+      "set_f1": {
+       "point": 0.6101,
+       "ci_low": 0.5739,
+       "ci_high": 0.6437,
+       "n_replicates": 5000,
+       "seed": 13,
+       "n_documents": 25
+      },
+      "exact_set_acc": {
+       "point": 0.0,
+       "ci_low": 0.0,
+       "ci_high": 0.0,
+       "n_replicates": 5000,
+       "seed": 13,
+       "n_documents": 25
+      }
+     }
+    },
+    "reference_sigmoid_threshold": {
+     "all": {
+      "n": 1846,
+      "set_f1": 0.7737,
+      "macro_f1": 0.7447,
+      "exact_set_acc": 0.6712
+     },
+     "multi_role": {
+      "n": 165,
+      "set_f1": 0.7404,
+      "macro_f1": 0.674,
+      "exact_set_acc": 0.3636
+     }
+    },
+    "reference_sigmoid_argmax": {
+     "all": {
+      "n": 1846,
+      "set_f1": 0.7582,
+      "macro_f1": 0.7301,
+      "exact_set_acc": 0.7026
+     },
+     "multi_role": {
+      "n": 165,
+      "set_f1": 0.6222,
+      "macro_f1": 0.4941,
+      "exact_set_acc": 0.0
+     }
+    },
+    "paired_softmax_minus_sigmoid_threshold": {
+     "multi_role": {
+      "set_f1": {
+       "a": 0.6101,
+       "b": 0.7404,
+       "diff_point": -0.1303,
+       "diff_ci_low": -0.1728,
+       "diff_ci_high": -0.0982,
+       "n_replicates": 5000,
+       "seed": 13,
+       "n_documents": 25
+      },
+      "exact_set_acc": {
+       "a": 0.0,
+       "b": 0.3636,
+       "diff_point": -0.3636,
+       "diff_ci_low": -0.4696,
+       "diff_ci_high": -0.2687,
+       "n_replicates": 5000,
+       "seed": 13,
+       "n_documents": 25
+      }
+     },
+     "all": {
+      "set_f1": {
+       "a": 0.7588,
+       "b": 0.7737,
+       "diff_point": -0.0149,
+       "diff_ci_low": -0.0316,
+       "diff_ci_high": 0.0004,
+       "n_replicates": 5000,
+       "seed": 13,
+       "n_documents": 30
+      },
+      "exact_set_acc": {
+       "a": 0.7042,
+       "b": 0.6712,
+       "diff_point": 0.033,
+       "diff_ci_low": 0.0091,
+       "diff_ci_high": 0.055,
+       "n_replicates": 5000,
+       "seed": 13,
+       "n_documents": 30
+      }
+     }
+    },
+    "paired_softmax_minus_sigmoid_argmax": {
+     "multi_role": {
+      "set_f1": {
+       "a": 0.6101,
+       "b": 0.6222,
+       "diff_point": -0.0121,
+       "diff_ci_low": -0.0376,
+       "diff_ci_high": 0.0106,
+       "n_replicates": 5000,
+       "seed": 13,
+       "n_documents": 25
+      },
+      "exact_set_acc": {
+       "a": 0.0,
+       "b": 0.0,
+       "diff_point": 0.0,
+       "diff_ci_low": 0.0,
+       "diff_ci_high": 0.0,
+       "n_replicates": 5000,
+       "seed": 13,
+       "n_documents": 25
+      }
+     },
+     "all": {
+      "set_f1": {
+       "a": 0.7588,
+       "b": 0.7582,
+       "diff_point": 0.0005,
+       "diff_ci_low": -0.0158,
+       "diff_ci_high": 0.017,
+       "n_replicates": 5000,
+       "seed": 13,
+       "n_documents": 30
+      },
+      "exact_set_acc": {
+       "a": 0.7042,
+       "b": 0.7026,
+       "diff_point": 0.0016,
+       "diff_ci_low": -0.0148,
+       "diff_ci_high": 0.0184,
+       "n_replicates": 5000,
+       "seed": 13,
+       "n_documents": 30
+      }
+     }
+    }
+   }
+  },
+  "lr3e-05_seed73": {
+   "model": "m1s_arabert",
+   "checkpoint": "aubmindlab/bert-base-arabertv2",
+   "lr": 3e-05,
+   "seed": 73,
+   "history": [
+    {
+     "epoch": 1,
+     "train_loss": 1.1514,
+     "val_set_f1": 0.7201,
+     "val_exact_set_acc": 0.6527,
+     "val_macro_f1": 0.6636,
+     "seconds": 583
+    },
+    {
+     "epoch": 2,
+     "train_loss": 0.6298,
+     "val_set_f1": 0.7467,
+     "val_exact_set_acc": 0.677,
+     "val_macro_f1": 0.7075,
+     "seconds": 567
+    },
+    {
+     "epoch": 3,
+     "train_loss": 0.4654,
+     "val_set_f1": 0.7342,
+     "val_exact_set_acc": 0.6703,
+     "val_macro_f1": 0.7067,
+     "seconds": 544
+    },
+    {
+     "epoch": 4,
+     "train_loss": 0.3572,
+     "val_set_f1": 0.752,
+     "val_exact_set_acc": 0.6821,
+     "val_macro_f1": 0.712,
+     "seconds": 539
+    },
+    {
+     "epoch": 5,
+     "train_loss": 0.2819,
+     "val_set_f1": 0.7505,
+     "val_exact_set_acc": 0.6821,
+     "val_macro_f1": 0.7214,
+     "seconds": 534
+    }
+   ],
+   "best": {
+    "epoch": 4,
+    "val_set_f1": 0.752,
+    "val_macro_f1": 0.712,
+    "val_exact_set_acc": 0.6821
+   },
+   "val": {
+    "set_f1": 0.752,
+    "exact_set_acc": 0.6821,
+    "macro_f1": 0.712,
+    "n": 1359
+   },
+   "test": {
+    "n": 1846,
+    "n_multi_role": 165,
+    "paired_against": "m1_arabert lr3e-05_seed73 (threshold 0.3)",
+    "softmax_argmax": {
+     "all": {
+      "n": 1846,
+      "set_f1": 0.7385,
+      "macro_f1": 0.7114,
+      "exact_set_acc": 0.682
+     },
+     "multi_role": {
+      "n": 165,
+      "set_f1": 0.6323,
+      "macro_f1": 0.5162,
+      "exact_set_acc": 0.0
+     },
+     "per_role_f1": {
+      "PREAMBLE": 0.9381,
+      "FACTS": 0.6667,
+      "ISSUE": 0.7233,
+      "ARGUMENT_PLAINTIFF": 0.3709,
+      "ARGUMENT_DEFENDANT": 0.6482,
+      "LAW_REFERENCE": 0.7891,
+      "ANALYSIS": 0.7814,
+      "DECISION": 0.7629,
+      "DECISION_APPEAL": 0.7222
+     },
+     "ci_all": {
+      "set_f1": {
+       "point": 0.7385,
+       "ci_low": 0.6838,
+       "ci_high": 0.7891,
+       "n_replicates": 5000,
+       "seed": 13,
+       "n_documents": 30
+      },
+      "exact_set_acc": {
+       "point": 0.682,
+       "ci_low": 0.6156,
+       "ci_high": 0.7375,
+       "n_replicates": 5000,
+       "seed": 13,
+       "n_documents": 30
+      }
+     },
+     "ci_multi_role": {
+      "set_f1": {
+       "point": 0.6323,
+       "ci_low": 0.6111,
+       "ci_high": 0.6511,
+       "n_replicates": 5000,
+       "seed": 13,
+       "n_documents": 25
+      },
+      "exact_set_acc": {
+       "point": 0.0,
+       "ci_low": 0.0,
+       "ci_high": 0.0,
+       "n_replicates": 5000,
+       "seed": 13,
+       "n_documents": 25
+      }
+     }
+    },
+    "reference_sigmoid_threshold": {
+     "all": {
+      "n": 1846,
+      "set_f1": 0.7725,
+      "macro_f1": 0.7462,
+      "exact_set_acc": 0.6701
+     },
+     "multi_role": {
+      "n": 165,
+      "set_f1": 0.7505,
+      "macro_f1": 0.7084,
+      "exact_set_acc": 0.3758
+     }
+    },
+    "reference_sigmoid_argmax": {
+     "all": {
+      "n": 1846,
+      "set_f1": 0.7589,
+      "macro_f1": 0.7404,
+      "exact_set_acc": 0.7037
+     },
+     "multi_role": {
+      "n": 165,
+      "set_f1": 0.6182,
+      "macro_f1": 0.6142,
+      "exact_set_acc": 0.0
+     }
+    },
+    "paired_softmax_minus_sigmoid_threshold": {
+     "multi_role": {
+      "set_f1": {
+       "a": 0.6323,
+       "b": 0.7505,
+       "diff_point": -0.1182,
+       "diff_ci_low": -0.1569,
+       "diff_ci_high": -0.0846,
+       "n_replicates": 5000,
+       "seed": 13,
+       "n_documents": 25
+      },
+      "exact_set_acc": {
+       "a": 0.0,
+       "b": 0.3758,
+       "diff_point": -0.3758,
+       "diff_ci_low": -0.4776,
+       "diff_ci_high": -0.2917,
+       "n_replicates": 5000,
+       "seed": 13,
+       "n_documents": 25
+      }
+     },
+     "all": {
+      "set_f1": {
+       "a": 0.7385,
+       "b": 0.7725,
+       "diff_point": -0.0339,
+       "diff_ci_low": -0.0469,
+       "diff_ci_high": -0.0166,
+       "n_replicates": 5000,
+       "seed": 13,
+       "n_documents": 30
+      },
+      "exact_set_acc": {
+       "a": 0.682,
+       "b": 0.6701,
+       "diff_point": 0.0119,
+       "diff_ci_low": -0.0169,
+       "diff_ci_high": 0.0411,
+       "n_replicates": 5000,
+       "seed": 13,
+       "n_documents": 30
+      }
+     }
+    },
+    "paired_softmax_minus_sigmoid_argmax": {
+     "multi_role": {
+      "set_f1": {
+       "a": 0.6323,
+       "b": 0.6182,
+       "diff_point": 0.0141,
+       "diff_ci_low": -0.0048,
+       "diff_ci_high": 0.0331,
+       "n_replicates": 5000,
+       "seed": 13,
+       "n_documents": 25
+      },
+      "exact_set_acc": {
+       "a": 0.0,
+       "b": 0.0,
+       "diff_point": 0.0,
+       "diff_ci_low": 0.0,
+       "diff_ci_high": 0.0,
+       "n_replicates": 5000,
+       "seed": 13,
+       "n_documents": 25
+      }
+     },
+     "all": {
+      "set_f1": {
+       "a": 0.7385,
+       "b": 0.7589,
+       "diff_point": -0.0204,
+       "diff_ci_low": -0.0377,
+       "diff_ci_high": -0.0006,
+       "n_replicates": 5000,
+       "seed": 13,
+       "n_documents": 30
+      },
+      "exact_set_acc": {
+       "a": 0.682,
+       "b": 0.7037,
+       "diff_point": -0.0217,
+       "diff_ci_low": -0.0386,
+       "diff_ci_high": -0.0018,
+       "n_replicates": 5000,
+       "seed": 13,
+       "n_documents": 30
+      }
+     }
+    }
+   }
+  }
+ }
+}

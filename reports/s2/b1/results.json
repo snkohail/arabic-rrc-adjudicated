@@ -1,0 +1,329 @@
+{
+ "model": "S2-B1 char n-gram TF-IDF + multinomial LR",
+ "fixed": {
+  "analyzer": "char_wb",
+  "sublinear_tf": true,
+  "min_df": 2,
+  "max_features": 500000,
+  "lowercase": false,
+  "solver": "lbfgs",
+  "multi_class": "multinomial",
+  "max_iter": 2000,
+  "seed": 13
+ },
+ "grid": {
+  "ngram_range": [
+   [
+    2,
+    4
+   ],
+   [
+    3,
+    5
+   ]
+  ],
+  "C": [
+   0.3,
+   1.0,
+   3.0,
+   10.0
+  ],
+  "class_weight": [
+   "none",
+   "balanced"
+  ]
+ },
+ "selection_criterion": "VAL macro-F1 (ties: smaller C, smaller n-gram, class_weight none)",
+ "table": [
+  {
+   "ngram_range": [
+    2,
+    4
+   ],
+   "C": 0.3,
+   "class_weight": "none",
+   "n_features": 48033,
+   "val_macro_f1": 0.6655,
+   "val_micro_f1": 0.7439
+  },
+  {
+   "ngram_range": [
+    2,
+    4
+   ],
+   "C": 0.3,
+   "class_weight": "balanced",
+   "n_features": 48033,
+   "val_macro_f1": 0.6952,
+   "val_micro_f1": 0.7248
+  },
+  {
+   "ngram_range": [
+    2,
+    4
+   ],
+   "C": 1.0,
+   "class_weight": "none",
+   "n_features": 48033,
+   "val_macro_f1": 0.7007,
+   "val_micro_f1": 0.7629
+  },
+  {
+   "ngram_range": [
+    2,
+    4
+   ],
+   "C": 1.0,
+   "class_weight": "balanced",
+   "n_features": 48033,
+   "val_macro_f1": 0.7145,
+   "val_micro_f1": 0.7454
+  },
+  {
+   "ngram_range": [
+    2,
+    4
+   ],
+   "C": 3.0,
+   "class_weight": "none",
+   "n_features": 48033,
+   "val_macro_f1": 0.7045,
+   "val_micro_f1": 0.7613
+  },
+  {
+   "ngram_range": [
+    2,
+    4
+   ],
+   "C": 3.0,
+   "class_weight": "balanced",
+   "n_features": 48033,
+   "val_macro_f1": 0.7171,
+   "val_micro_f1": 0.7486
+  },
+  {
+   "ngram_range": [
+    2,
+    4
+   ],
+   "C": 10.0,
+   "class_weight": "none",
+   "n_features": 48033,
+   "val_macro_f1": 0.7106,
+   "val_micro_f1": 0.7613
+  },
+  {
+   "ngram_range": [
+    2,
+    4
+   ],
+   "C": 10.0,
+   "class_weight": "balanced",
+   "n_features": 48033,
+   "val_macro_f1": 0.7171,
+   "val_micro_f1": 0.7526
+  },
+  {
+   "ngram_range": [
+    3,
+    5
+   ],
+   "C": 0.3,
+   "class_weight": "none",
+   "n_features": 86050,
+   "val_macro_f1": 0.6625,
+   "val_micro_f1": 0.7431
+  },
+  {
+   "ngram_range": [
+    3,
+    5
+   ],
+   "C": 0.3,
+   "class_weight": "balanced",
+   "n_features": 86050,
+   "val_macro_f1": 0.698,
+   "val_micro_f1": 0.7264
+  },
+  {
+   "ngram_range": [
+    3,
+    5
+   ],
+   "C": 1.0,
+   "class_weight": "none",
+   "n_features": 86050,
+   "val_macro_f1": 0.6947,
+   "val_micro_f1": 0.7605
+  },
+  {
+   "ngram_range": [
+    3,
+    5
+   ],
+   "C": 1.0,
+   "class_weight": "balanced",
+   "n_features": 86050,
+   "val_macro_f1": 0.7157,
+   "val_micro_f1": 0.7462
+  },
+  {
+   "ngram_range": [
+    3,
+    5
+   ],
+   "C": 3.0,
+   "class_weight": "none",
+   "n_features": 86050,
+   "val_macro_f1": 0.7077,
+   "val_micro_f1": 0.7661
+  },
+  {
+   "ngram_range": [
+    3,
+    5
+   ],
+   "C": 3.0,
+   "class_weight": "balanced",
+   "n_features": 86050,
+   "val_macro_f1": 0.7242,
+   "val_micro_f1": 0.7613
+  },
+  {
+   "ngram_range": [
+    3,
+    5
+   ],
+   "C": 10.0,
+   "class_weight": "none",
+   "n_features": 86050,
+   "val_macro_f1": 0.7107,
+   "val_micro_f1": 0.7613
+  },
+  {
+   "ngram_range": [
+    3,
+    5
+   ],
+   "C": 10.0,
+   "class_weight": "balanced",
+   "n_features": 86050,
+   "val_macro_f1": 0.7225,
+   "val_micro_f1": 0.7613
+  }
+ ],
+ "chosen": {
+  "ngram_range": [
+   3,
+   5
+  ],
+  "C": 3.0,
+  "class_weight": "balanced",
+  "n_features": 86050,
+  "val_macro_f1": 0.7242,
+  "val_micro_f1": 0.7613
+ },
+ "val": {
+  "n": 1261,
+  "n_documents": 30,
+  "macro_f1": 0.7242,
+  "micro_f1": 0.7613,
+  "accuracy": 0.7613,
+  "per_role_f1": {
+   "PREAMBLE": 0.932,
+   "FACTS": 0.6705,
+   "ISSUE": 0.8143,
+   "ARGUMENT_PLAINTIFF": 0.4052,
+   "ARGUMENT_DEFENDANT": 0.6305,
+   "LAW_REFERENCE": 0.6486,
+   "ANALYSIS": 0.8411,
+   "DECISION": 0.8613,
+   "DECISION_APPEAL": 0.7143
+  },
+  "gold_support": {
+   "PREAMBLE": 195,
+   "FACTS": 253,
+   "ISSUE": 64,
+   "ARGUMENT_PLAINTIFF": 70,
+   "ARGUMENT_DEFENDANT": 109,
+   "LAW_REFERENCE": 69,
+   "ANALYSIS": 398,
+   "DECISION": 70,
+   "DECISION_APPEAL": 33
+  },
+  "pred_counts": {
+   "PREAMBLE": 202,
+   "FACTS": 272,
+   "ISSUE": 76,
+   "ARGUMENT_PLAINTIFF": 83,
+   "ARGUMENT_DEFENDANT": 94,
+   "LAW_REFERENCE": 79,
+   "ANALYSIS": 351,
+   "DECISION": 67,
+   "DECISION_APPEAL": 37
+  }
+ },
+ "test": {
+  "n": 1355,
+  "n_documents": 30,
+  "macro_f1": 0.7175,
+  "micro_f1": 0.7454,
+  "accuracy": 0.7454,
+  "per_role_f1": {
+   "PREAMBLE": 0.9242,
+   "FACTS": 0.6478,
+   "ISSUE": 0.6726,
+   "ARGUMENT_PLAINTIFF": 0.4127,
+   "ARGUMENT_DEFENDANT": 0.6703,
+   "LAW_REFERENCE": 0.7513,
+   "ANALYSIS": 0.7612,
+   "DECISION": 0.8442,
+   "DECISION_APPEAL": 0.7733
+  },
+  "gold_support": {
+   "PREAMBLE": 262,
+   "FACTS": 253,
+   "ISSUE": 118,
+   "ARGUMENT_PLAINTIFF": 48,
+   "ARGUMENT_DEFENDANT": 92,
+   "LAW_REFERENCE": 93,
+   "ANALYSIS": 376,
+   "DECISION": 74,
+   "DECISION_APPEAL": 39
+  },
+  "pred_counts": {
+   "PREAMBLE": 266,
+   "FACTS": 278,
+   "ISSUE": 105,
+   "ARGUMENT_PLAINTIFF": 78,
+   "ARGUMENT_DEFENDANT": 93,
+   "LAW_REFERENCE": 104,
+   "ANALYSIS": 315,
+   "DECISION": 80,
+   "DECISION_APPEAL": 36
+  },
+  "ci": {
+   "macro_f1": {
+    "point": 0.7175,
+    "ci_low": 0.6399,
+    "ci_high": 0.7747,
+    "n_replicates": 5000,
+    "seed": 13,
+    "n_documents": 30
+   },
+   "micro_f1": {
+    "point": 0.7454,
+    "ci_low": 0.6933,
+    "ci_high": 0.7943,
+    "n_replicates": 5000,
+    "seed": 13,
+    "n_documents": 30
+   }
+  }
+ },
+ "counts": {
+  "train": 6298,
+  "val": 1261,
+  "test": 1355
+ }
+}

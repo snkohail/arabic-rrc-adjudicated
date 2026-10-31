@@ -1,0 +1,550 @@
+{
+ "model": "humain-ai/ALLaM-7B-Instruct-preview",
+ "protocol": "Zero-shot LLM baseline (ALLaM-7B-Instruct-preview, open weights, run locally on MPS; no network at inference).\n\nProtocol (pre-declared):\n  * prompt v1 (S1 format example showed two slots -> model copied the shape, cardinality 1.96 on VAL) and\n    prompt v2 (S1 format line asks for 'one or more codes' with no slot example); S2 prompt unchanged.\n  * prompt = fixed system instruction + the nine role codes with the guideline definitions (configs/role_definitions.json)\n    + the passage; S1 asks for ALL applicable roles, S2 asks for exactly one role; output = JSON list of codes.\n  * greedy decoding, max 40 new tokens, one deterministic run (no seeds).\n  * passages longer than 1,500 ALLaM tokens are truncated to the first 1,200 + last 300 tokens (reported).\n  * VAL stage: 100 S1 regions + 100 S2 sentences (seed 13) to check parse rate and speed only; TEST run once.\n  * unparsable output = empty prediction (S1) / most frequent TRAIN role (S2); the failure rate is reported.\n  * scoring reuses the encoder scoring code: set-F1 / macro-F1 / exact-set, slices, document-clustered bootstrap (5,000, seed 13),\n    paired contrasts against B0 and the encoder seeds on identical resamples.\nOutputs: <data_dir>/predictions/llm_allam/{s1,s2}_{val,test}.jsonl (+ *_raw.jsonl) and results here.\n",
+ "s1_v1": {
+  "n": 1846,
+  "set_f1": 0.3436,
+  "macro_f1": 0.3209,
+  "exact_set_acc": 0.046,
+  "micro_f1": 0.3404,
+  "per_role_f1": {
+   "PREAMBLE": 0.6235,
+   "FACTS": 0.4914,
+   "ISSUE": 0.114,
+   "ARGUMENT_PLAINTIFF": 0.2093,
+   "ARGUMENT_DEFENDANT": 0.3142,
+   "LAW_REFERENCE": 0.5306,
+   "ANALYSIS": 0.2278,
+   "DECISION": 0.1466,
+   "DECISION_APPEAL": 0.231
+  },
+  "slices": {
+   "single_role": {
+    "n": 1681,
+    "set_f1": 0.3381,
+    "macro_f1": 0.3219,
+    "exact_set_acc": 0.047
+   },
+   "multi_role": {
+    "n": 165,
+    "set_f1": 0.3997,
+    "macro_f1": 0.2632,
+    "exact_set_acc": 0.0364
+   },
+   "nested": {
+    "n": 269,
+    "set_f1": 0.3945,
+    "macro_f1": 0.3647,
+    "exact_set_acc": 0.0892
+   },
+   "non_nested": {
+    "n": 1577,
+    "set_f1": 0.3349,
+    "macro_f1": 0.3135,
+    "exact_set_acc": 0.0387
+   }
+  },
+  "pred_cardinality_mean": 1.911,
+  "empty_predictions": 8,
+  "ci": {
+   "set_f1": {
+    "point": 0.3436,
+    "ci_low": 0.3006,
+    "ci_high": 0.3839,
+    "n_replicates": 5000,
+    "seed": 13,
+    "n_documents": 30
+   },
+   "macro_f1": {
+    "point": 0.3209,
+    "ci_low": 0.2727,
+    "ci_high": 0.3677,
+    "n_replicates": 5000,
+    "seed": 13,
+    "n_documents": 30
+   },
+   "exact_set_acc": {
+    "point": 0.046,
+    "ci_low": 0.0334,
+    "ci_high": 0.0582,
+    "n_replicates": 5000,
+    "seed": 13,
+    "n_documents": 30
+   }
+  },
+  "parse_failures": 8,
+  "truncated_inputs": 10,
+  "paired_vs_b0": {
+   "a": 0.3436,
+   "b": 0.7459,
+   "diff_point": -0.4023,
+   "diff_ci_low": -0.44,
+   "diff_ci_high": -0.363,
+   "n_replicates": 5000,
+   "seed": 13,
+   "n_documents": 30
+  },
+  "paired_vs_m1_arabertv02": {
+   "13": {
+    "a": 0.3436,
+    "b": 0.7856,
+    "diff_point": -0.442,
+    "diff_ci_low": -0.4725,
+    "diff_ci_high": -0.4097,
+    "n_replicates": 5000,
+    "seed": 13,
+    "n_documents": 30
+   },
+   "37": {
+    "a": 0.3436,
+    "b": 0.7776,
+    "diff_point": -0.434,
+    "diff_ci_low": -0.4631,
+    "diff_ci_high": -0.4015,
+    "n_replicates": 5000,
+    "seed": 13,
+    "n_documents": 30
+   },
+   "73": {
+    "a": 0.3436,
+    "b": 0.7759,
+    "diff_point": -0.4323,
+    "diff_ci_low": -0.464,
+    "diff_ci_high": -0.3971,
+    "n_replicates": 5000,
+    "seed": 13,
+    "n_documents": 30
+   }
+  },
+  "paired_vs_m2_camelbert": {
+   "13": {
+    "a": 0.3436,
+    "b": 0.7827,
+    "diff_point": -0.4391,
+    "diff_ci_low": -0.4736,
+    "diff_ci_high": -0.3987,
+    "n_replicates": 5000,
+    "seed": 13,
+    "n_documents": 30
+   },
+   "37": {
+    "a": 0.3436,
+    "b": 0.7884,
+    "diff_point": -0.4448,
+    "diff_ci_low": -0.4766,
+    "diff_ci_high": -0.4105,
+    "n_replicates": 5000,
+    "seed": 13,
+    "n_documents": 30
+   },
+   "73": {
+    "a": 0.3436,
+    "b": 0.7713,
+    "diff_point": -0.4277,
+    "diff_ci_low": -0.4604,
+    "diff_ci_high": -0.3934,
+    "n_replicates": 5000,
+    "seed": 13,
+    "n_documents": 30
+   }
+  },
+  "paired_vs_m1_arabert": {
+   "13": {
+    "a": 0.3436,
+    "b": 0.7616,
+    "diff_point": -0.418,
+    "diff_ci_low": -0.4466,
+    "diff_ci_high": -0.3868,
+    "n_replicates": 5000,
+    "seed": 13,
+    "n_documents": 30
+   },
+   "37": {
+    "a": 0.3436,
+    "b": 0.7737,
+    "diff_point": -0.4301,
+    "diff_ci_low": -0.4626,
+    "diff_ci_high": -0.3936,
+    "n_replicates": 5000,
+    "seed": 13,
+    "n_documents": 30
+   },
+   "73": {
+    "a": 0.3436,
+    "b": 0.7725,
+    "diff_point": -0.4289,
+    "diff_ci_low": -0.4614,
+    "diff_ci_high": -0.3937,
+    "n_replicates": 5000,
+    "seed": 13,
+    "n_documents": 30
+   }
+  }
+ },
+ "s1_v2": {
+  "n": 1846,
+  "set_f1": 0.3603,
+  "macro_f1": 0.3169,
+  "exact_set_acc": 0.2497,
+  "micro_f1": 0.3645,
+  "per_role_f1": {
+   "PREAMBLE": 0.5714,
+   "FACTS": 0.4789,
+   "ISSUE": 0.0113,
+   "ARGUMENT_PLAINTIFF": 0.2252,
+   "ARGUMENT_DEFENDANT": 0.3844,
+   "LAW_REFERENCE": 0.6486,
+   "ANALYSIS": 0.1154,
+   "DECISION": 0.3356,
+   "DECISION_APPEAL": 0.0816
+  },
+  "slices": {
+   "single_role": {
+    "n": 1681,
+    "set_f1": 0.3602,
+    "macro_f1": 0.3259,
+    "exact_set_acc": 0.2736
+   },
+   "multi_role": {
+    "n": 165,
+    "set_f1": 0.3606,
+    "macro_f1": 0.2159,
+    "exact_set_acc": 0.0061
+   },
+   "nested": {
+    "n": 269,
+    "set_f1": 0.424,
+    "macro_f1": 0.3242,
+    "exact_set_acc": 0.2788
+   },
+   "non_nested": {
+    "n": 1577,
+    "set_f1": 0.3494,
+    "macro_f1": 0.3149,
+    "exact_set_acc": 0.2448
+   }
+  },
+  "pred_cardinality_mean": 1.236,
+  "empty_predictions": 69,
+  "ci": {
+   "set_f1": {
+    "point": 0.3603,
+    "ci_low": 0.3026,
+    "ci_high": 0.4134,
+    "n_replicates": 5000,
+    "seed": 13,
+    "n_documents": 30
+   },
+   "macro_f1": {
+    "point": 0.3169,
+    "ci_low": 0.2685,
+    "ci_high": 0.3611,
+    "n_replicates": 5000,
+    "seed": 13,
+    "n_documents": 30
+   },
+   "exact_set_acc": {
+    "point": 0.2497,
+    "ci_low": 0.2013,
+    "ci_high": 0.2956,
+    "n_replicates": 5000,
+    "seed": 13,
+    "n_documents": 30
+   }
+  },
+  "parse_failures": 69,
+  "truncated_inputs": 10,
+  "paired_vs_b0": {
+   "a": 0.3603,
+   "b": 0.7459,
+   "diff_point": -0.3856,
+   "diff_ci_low": -0.4373,
+   "diff_ci_high": -0.3362,
+   "n_replicates": 5000,
+   "seed": 13,
+   "n_documents": 30
+  },
+  "paired_vs_m1_arabertv02": {
+   "13": {
+    "a": 0.3603,
+    "b": 0.7856,
+    "diff_point": -0.4253,
+    "diff_ci_low": -0.4654,
+    "diff_ci_high": -0.3865,
+    "n_replicates": 5000,
+    "seed": 13,
+    "n_documents": 30
+   },
+   "37": {
+    "a": 0.3603,
+    "b": 0.7776,
+    "diff_point": -0.4173,
+    "diff_ci_low": -0.4583,
+    "diff_ci_high": -0.3774,
+    "n_replicates": 5000,
+    "seed": 13,
+    "n_documents": 30
+   },
+   "73": {
+    "a": 0.3603,
+    "b": 0.7759,
+    "diff_point": -0.4156,
+    "diff_ci_low": -0.4569,
+    "diff_ci_high": -0.376,
+    "n_replicates": 5000,
+    "seed": 13,
+    "n_documents": 30
+   }
+  },
+  "paired_vs_m2_camelbert": {
+   "13": {
+    "a": 0.3603,
+    "b": 0.7827,
+    "diff_point": -0.4224,
+    "diff_ci_low": -0.4677,
+    "diff_ci_high": -0.3762,
+    "n_replicates": 5000,
+    "seed": 13,
+    "n_documents": 30
+   },
+   "37": {
+    "a": 0.3603,
+    "b": 0.7884,
+    "diff_point": -0.4281,
+    "diff_ci_low": -0.4721,
+    "diff_ci_high": -0.3867,
+    "n_replicates": 5000,
+    "seed": 13,
+    "n_documents": 30
+   },
+   "73": {
+    "a": 0.3603,
+    "b": 0.7713,
+    "diff_point": -0.4111,
+    "diff_ci_low": -0.4541,
+    "diff_ci_high": -0.3693,
+    "n_replicates": 5000,
+    "seed": 13,
+    "n_documents": 30
+   }
+  },
+  "paired_vs_m1_arabert": {
+   "13": {
+    "a": 0.3603,
+    "b": 0.7616,
+    "diff_point": -0.4014,
+    "diff_ci_low": -0.4426,
+    "diff_ci_high": -0.3629,
+    "n_replicates": 5000,
+    "seed": 13,
+    "n_documents": 30
+   },
+   "37": {
+    "a": 0.3603,
+    "b": 0.7737,
+    "diff_point": -0.4134,
+    "diff_ci_low": -0.459,
+    "diff_ci_high": -0.3695,
+    "n_replicates": 5000,
+    "seed": 13,
+    "n_documents": 30
+   },
+   "73": {
+    "a": 0.3603,
+    "b": 0.7725,
+    "diff_point": -0.4122,
+    "diff_ci_low": -0.4557,
+    "diff_ci_high": -0.3702,
+    "n_replicates": 5000,
+    "seed": 13,
+    "n_documents": 30
+   }
+  }
+ },
+ "s2": {
+  "n": 1355,
+  "n_documents": 30,
+  "macro_f1": 0.3213,
+  "micro_f1": 0.417,
+  "accuracy": 0.417,
+  "per_role_f1": {
+   "PREAMBLE": 0.8112,
+   "FACTS": 0.5306,
+   "ISSUE": 0.0,
+   "ARGUMENT_PLAINTIFF": 0.2553,
+   "ARGUMENT_DEFENDANT": 0.3446,
+   "LAW_REFERENCE": 0.5213,
+   "ANALYSIS": 0.0615,
+   "DECISION": 0.3433,
+   "DECISION_APPEAL": 0.0235
+  },
+  "gold_support": {
+   "PREAMBLE": 262,
+   "FACTS": 253,
+   "ISSUE": 118,
+   "ARGUMENT_PLAINTIFF": 48,
+   "ARGUMENT_DEFENDANT": 92,
+   "LAW_REFERENCE": 93,
+   "ANALYSIS": 376,
+   "DECISION": 74,
+   "DECISION_APPEAL": 39
+  },
+  "pred_counts": {
+   "PREAMBLE": 236,
+   "FACTS": 384,
+   "ISSUE": 2,
+   "ARGUMENT_PLAINTIFF": 46,
+   "ARGUMENT_DEFENDANT": 204,
+   "LAW_REFERENCE": 95,
+   "ANALYSIS": 14,
+   "DECISION": 328,
+   "DECISION_APPEAL": 46
+  },
+  "ci": {
+   "macro_f1": {
+    "point": 0.3213,
+    "ci_low": 0.2936,
+    "ci_high": 0.3498,
+    "n_replicates": 5000,
+    "seed": 13,
+    "n_documents": 30
+   },
+   "micro_f1": {
+    "point": 0.417,
+    "ci_low": 0.3765,
+    "ci_high": 0.4652,
+    "n_replicates": 5000,
+    "seed": 13,
+    "n_documents": 30
+   }
+  },
+  "parse_failures": 0,
+  "fallback_role": "ANALYSIS",
+  "paired_vs_s2_b0": {
+   "a": 0.3213,
+   "b": 0.0483,
+   "diff_point": 0.273,
+   "diff_ci_low": 0.2434,
+   "diff_ci_high": 0.3032,
+   "n_replicates": 5000,
+   "seed": 13,
+   "n_documents": 30
+  },
+  "paired_vs_s2_b1": {
+   "a": 0.3213,
+   "b": 0.7175,
+   "diff_point": -0.3963,
+   "diff_ci_low": -0.4506,
+   "diff_ci_high": -0.3245,
+   "n_replicates": 5000,
+   "seed": 13,
+   "n_documents": 30
+  },
+  "paired_vs_s2_b2": {
+   "a": 0.3213,
+   "b": 0.7218,
+   "diff_point": -0.4006,
+   "diff_ci_low": -0.4528,
+   "diff_ci_high": -0.3455,
+   "n_replicates": 5000,
+   "seed": 13,
+   "n_documents": 30
+  },
+  "paired_vs_s2_m1_arabertv02": {
+   "13": {
+    "a": 0.3213,
+    "b": 0.7339,
+    "diff_point": -0.4126,
+    "diff_ci_low": -0.4654,
+    "diff_ci_high": -0.3528,
+    "n_replicates": 5000,
+    "seed": 13,
+    "n_documents": 30
+   },
+   "37": {
+    "a": 0.3213,
+    "b": 0.7247,
+    "diff_point": -0.4034,
+    "diff_ci_low": -0.4604,
+    "diff_ci_high": -0.3398,
+    "n_replicates": 5000,
+    "seed": 13,
+    "n_documents": 30
+   },
+   "73": {
+    "a": 0.3213,
+    "b": 0.7257,
+    "diff_point": -0.4044,
+    "diff_ci_low": -0.4543,
+    "diff_ci_high": -0.3469,
+    "n_replicates": 5000,
+    "seed": 13,
+    "n_documents": 30
+   }
+  },
+  "paired_vs_s2_m2_camelbert": {
+   "13": {
+    "a": 0.3213,
+    "b": 0.7178,
+    "diff_point": -0.3965,
+    "diff_ci_low": -0.4585,
+    "diff_ci_high": -0.327,
+    "n_replicates": 5000,
+    "seed": 13,
+    "n_documents": 30
+   },
+   "37": {
+    "a": 0.3213,
+    "b": 0.7095,
+    "diff_point": -0.3882,
+    "diff_ci_low": -0.4403,
+    "diff_ci_high": -0.3219,
+    "n_replicates": 5000,
+    "seed": 13,
+    "n_documents": 30
+   },
+   "73": {
+    "a": 0.3213,
+    "b": 0.7167,
+    "diff_point": -0.3955,
+    "diff_ci_low": -0.4478,
+    "diff_ci_high": -0.3294,
+    "n_replicates": 5000,
+    "seed": 13,
+    "n_documents": 30
+   }
+  },
+  "paired_vs_s2_m1_arabert": {
+   "13": {
+    "a": 0.3213,
+    "b": 0.6978,
+    "diff_point": -0.3765,
+    "diff_ci_low": -0.4318,
+    "diff_ci_high": -0.3003,
+    "n_replicates": 5000,
+    "seed": 13,
+    "n_documents": 30
+   },
+   "37": {
+    "a": 0.3213,
+    "b": 0.7177,
+    "diff_point": -0.3964,
+    "diff_ci_low": -0.4515,
+    "diff_ci_high": -0.3316,
+    "n_replicates": 5000,
+    "seed": 13,
+    "n_documents": 30
+   },
+   "73": {
+    "a": 0.3213,
+    "b": 0.7162,
+    "diff_point": -0.395,
+    "diff_ci_low": -0.4477,
+    "diff_ci_high": -0.3258,
+    "n_replicates": 5000,
+    "seed": 13,
+    "n_documents": 30
+   }
+  }
+ }
+}

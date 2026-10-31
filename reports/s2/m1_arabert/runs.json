@@ -1,0 +1,638 @@
+{
+ "checkpoint": "aubmindlab/bert-base-arabertv2",
+ "revision": "97522efce17efa33036ac619802d5cec238dcad9",
+ "tokenizer": "aubmindlab/bert-base-arabertv2 (fast tokenizer, raw text, no Farasa segmentation)",
+ "long_span_handling": {
+  "window_tokens": 510,
+  "stride_tokens": 128,
+  "pooling": "mean of per-window [CLS] hidden states"
+ },
+ "hyperparameters": {
+  "lr_grid": [
+   2e-05,
+   3e-05
+  ],
+  "epochs": 5,
+  "batch_examples": 16,
+  "max_windows_per_batch": 48,
+  "warmup_ratio": 0.1,
+  "weight_decay": 0.01,
+  "dropout": 0.1,
+  "grad_clip": 1.0,
+  "optimizer": "AdamW",
+  "schedule": "linear decay with warmup",
+  "loss": "cross-entropy",
+  "selection_seed": 13,
+  "seeds": [
+   13,
+   37,
+   73
+  ],
+  "precision": "fp32",
+  "decoding": "argmax over 9-way softmax"
+ },
+ "selection_criterion": "VAL macro-F1",
+ "lr_selection": [
+  {
+   "lr": 2e-05,
+   "seed": 13,
+   "best_epoch": 3,
+   "val_macro_f1": 0.7427,
+   "val_micro_f1": 0.7875
+  },
+  {
+   "lr": 3e-05,
+   "seed": 13,
+   "best_epoch": 3,
+   "val_macro_f1": 0.7404,
+   "val_micro_f1": 0.7867
+  }
+ ],
+ "chosen_lr": 2e-05,
+ "runs": {
+  "lr2e-05_seed13": {
+   "model": "m1_arabert",
+   "checkpoint": "aubmindlab/bert-base-arabertv2",
+   "lr": 2e-05,
+   "seed": 13,
+   "history": [
+    {
+     "epoch": 1,
+     "train_loss": 1.3561,
+     "val_macro_f1": 0.6255,
+     "val_micro_f1": 0.7201,
+     "seconds": 282
+    },
+    {
+     "epoch": 2,
+     "train_loss": 0.6955,
+     "val_macro_f1": 0.6812,
+     "val_micro_f1": 0.7407,
+     "seconds": 266
+    },
+    {
+     "epoch": 3,
+     "train_loss": 0.5014,
+     "val_macro_f1": 0.7427,
+     "val_micro_f1": 0.7875,
+     "seconds": 723
+    },
+    {
+     "epoch": 4,
+     "train_loss": 0.382,
+     "val_macro_f1": 0.7242,
+     "val_micro_f1": 0.7653,
+     "seconds": 284
+    },
+    {
+     "epoch": 5,
+     "train_loss": 0.3068,
+     "val_macro_f1": 0.7232,
+     "val_micro_f1": 0.7732,
+     "seconds": 293
+    }
+   ],
+   "best": {
+    "epoch": 3,
+    "val_macro_f1": 0.7427,
+    "val_micro_f1": 0.7875
+   },
+   "val": {
+    "n": 1261,
+    "n_documents": 30,
+    "macro_f1": 0.7427,
+    "micro_f1": 0.7875,
+    "accuracy": 0.7875,
+    "per_role_f1": {
+     "PREAMBLE": 0.933,
+     "FACTS": 0.7284,
+     "ISSUE": 0.8356,
+     "ARGUMENT_PLAINTIFF": 0.3363,
+     "ARGUMENT_DEFENDANT": 0.6265,
+     "LAW_REFERENCE": 0.7612,
+     "ANALYSIS": 0.8529,
+     "DECISION": 0.8308,
+     "DECISION_APPEAL": 0.7797
+    },
+    "gold_support": {
+     "PREAMBLE": 195,
+     "FACTS": 253,
+     "ISSUE": 64,
+     "ARGUMENT_PLAINTIFF": 70,
+     "ARGUMENT_DEFENDANT": 109,
+     "LAW_REFERENCE": 69,
+     "ANALYSIS": 398,
+     "DECISION": 70,
+     "DECISION_APPEAL": 33
+    },
+    "pred_counts": {
+     "PREAMBLE": 208,
+     "FACTS": 233,
+     "ISSUE": 82,
+     "ARGUMENT_PLAINTIFF": 43,
+     "ARGUMENT_DEFENDANT": 140,
+     "LAW_REFERENCE": 65,
+     "ANALYSIS": 404,
+     "DECISION": 60,
+     "DECISION_APPEAL": 26
+    }
+   },
+   "test": {
+    "n": 1355,
+    "n_documents": 30,
+    "macro_f1": 0.6978,
+    "micro_f1": 0.7498,
+    "accuracy": 0.7498,
+    "per_role_f1": {
+     "PREAMBLE": 0.8843,
+     "FACTS": 0.6813,
+     "ISSUE": 0.7027,
+     "ARGUMENT_PLAINTIFF": 0.4396,
+     "ARGUMENT_DEFENDANT": 0.6373,
+     "LAW_REFERENCE": 0.7582,
+     "ANALYSIS": 0.7936,
+     "DECISION": 0.7362,
+     "DECISION_APPEAL": 0.6471
+    },
+    "gold_support": {
+     "PREAMBLE": 262,
+     "FACTS": 253,
+     "ISSUE": 118,
+     "ARGUMENT_PLAINTIFF": 48,
+     "ARGUMENT_DEFENDANT": 92,
+     "LAW_REFERENCE": 93,
+     "ANALYSIS": 376,
+     "DECISION": 74,
+     "DECISION_APPEAL": 39
+    },
+    "pred_counts": {
+     "PREAMBLE": 265,
+     "FACTS": 249,
+     "ISSUE": 104,
+     "ARGUMENT_PLAINTIFF": 43,
+     "ARGUMENT_DEFENDANT": 112,
+     "LAW_REFERENCE": 89,
+     "ANALYSIS": 375,
+     "DECISION": 89,
+     "DECISION_APPEAL": 29
+    },
+    "ci": {
+     "macro_f1": {
+      "point": 0.6978,
+      "ci_low": 0.6108,
+      "ci_high": 0.7625,
+      "n_replicates": 5000,
+      "seed": 13,
+      "n_documents": 30
+     },
+     "micro_f1": {
+      "point": 0.7498,
+      "ci_low": 0.701,
+      "ci_high": 0.8029,
+      "n_replicates": 5000,
+      "seed": 13,
+      "n_documents": 30
+     }
+    }
+   }
+  },
+  "lr3e-05_seed13": {
+   "model": "m1_arabert",
+   "checkpoint": "aubmindlab/bert-base-arabertv2",
+   "lr": 3e-05,
+   "seed": 13,
+   "history": [
+    {
+     "epoch": 1,
+     "train_loss": 1.2552,
+     "val_macro_f1": 0.6642,
+     "val_micro_f1": 0.7407,
+     "seconds": 290
+    },
+    {
+     "epoch": 2,
+     "train_loss": 0.6546,
+     "val_macro_f1": 0.6829,
+     "val_micro_f1": 0.7391,
+     "seconds": 286
+    },
+    {
+     "epoch": 3,
+     "train_loss": 0.4585,
+     "val_macro_f1": 0.7404,
+     "val_micro_f1": 0.7867,
+     "seconds": 290
+    },
+    {
+     "epoch": 4,
+     "train_loss": 0.3294,
+     "val_macro_f1": 0.7378,
+     "val_micro_f1": 0.7669,
+     "seconds": 306
+    },
+    {
+     "epoch": 5,
+     "train_loss": 0.2417,
+     "val_macro_f1": 0.7296,
+     "val_micro_f1": 0.774,
+     "seconds": 299
+    }
+   ],
+   "best": {
+    "epoch": 3,
+    "val_macro_f1": 0.7404,
+    "val_micro_f1": 0.7867
+   },
+   "val": {
+    "n": 1261,
+    "n_documents": 30,
+    "macro_f1": 0.7404,
+    "micro_f1": 0.7867,
+    "accuracy": 0.7867,
+    "per_role_f1": {
+     "PREAMBLE": 0.94,
+     "FACTS": 0.7258,
+     "ISSUE": 0.8652,
+     "ARGUMENT_PLAINTIFF": 0.3107,
+     "ARGUMENT_DEFENDANT": 0.5869,
+     "LAW_REFERENCE": 0.7424,
+     "ANALYSIS": 0.8554,
+     "DECISION": 0.8444,
+     "DECISION_APPEAL": 0.7931
+    },
+    "gold_support": {
+     "PREAMBLE": 195,
+     "FACTS": 253,
+     "ISSUE": 64,
+     "ARGUMENT_PLAINTIFF": 70,
+     "ARGUMENT_DEFENDANT": 109,
+     "LAW_REFERENCE": 69,
+     "ANALYSIS": 398,
+     "DECISION": 70,
+     "DECISION_APPEAL": 33
+    },
+    "pred_counts": {
+     "PREAMBLE": 205,
+     "FACTS": 232,
+     "ISSUE": 77,
+     "ARGUMENT_PLAINTIFF": 33,
+     "ARGUMENT_DEFENDANT": 150,
+     "LAW_REFERENCE": 63,
+     "ANALYSIS": 411,
+     "DECISION": 65,
+     "DECISION_APPEAL": 25
+    }
+   },
+   "test": {
+    "n": 1355,
+    "n_documents": 30,
+    "macro_f1": 0.6954,
+    "micro_f1": 0.7469,
+    "accuracy": 0.7469,
+    "per_role_f1": {
+     "PREAMBLE": 0.8816,
+     "FACTS": 0.668,
+     "ISSUE": 0.6867,
+     "ARGUMENT_PLAINTIFF": 0.3864,
+     "ARGUMENT_DEFENDANT": 0.6111,
+     "LAW_REFERENCE": 0.7568,
+     "ANALYSIS": 0.8005,
+     "DECISION": 0.8105,
+     "DECISION_APPEAL": 0.6567
+    },
+    "gold_support": {
+     "PREAMBLE": 262,
+     "FACTS": 253,
+     "ISSUE": 118,
+     "ARGUMENT_PLAINTIFF": 48,
+     "ARGUMENT_DEFENDANT": 92,
+     "LAW_REFERENCE": 93,
+     "ANALYSIS": 376,
+     "DECISION": 74,
+     "DECISION_APPEAL": 39
+    },
+    "pred_counts": {
+     "PREAMBLE": 253,
+     "FACTS": 253,
+     "ISSUE": 115,
+     "ARGUMENT_PLAINTIFF": 40,
+     "ARGUMENT_DEFENDANT": 124,
+     "LAW_REFERENCE": 92,
+     "ANALYSIS": 371,
+     "DECISION": 79,
+     "DECISION_APPEAL": 28
+    },
+    "ci": {
+     "macro_f1": {
+      "point": 0.6954,
+      "ci_low": 0.6134,
+      "ci_high": 0.7573,
+      "n_replicates": 5000,
+      "seed": 13,
+      "n_documents": 30
+     },
+     "micro_f1": {
+      "point": 0.7469,
+      "ci_low": 0.6949,
+      "ci_high": 0.8067,
+      "n_replicates": 5000,
+      "seed": 13,
+      "n_documents": 30
+     }
+    }
+   }
+  },
+  "lr2e-05_seed37": {
+   "model": "m1_arabert",
+   "checkpoint": "aubmindlab/bert-base-arabertv2",
+   "lr": 2e-05,
+   "seed": 37,
+   "history": [
+    {
+     "epoch": 1,
+     "train_loss": 1.3045,
+     "val_macro_f1": 0.6602,
+     "val_micro_f1": 0.7454,
+     "seconds": 308
+    },
+    {
+     "epoch": 2,
+     "train_loss": 0.6601,
+     "val_macro_f1": 0.7037,
+     "val_micro_f1": 0.7676,
+     "seconds": 297
+    },
+    {
+     "epoch": 3,
+     "train_loss": 0.4776,
+     "val_macro_f1": 0.7174,
+     "val_micro_f1": 0.7653,
+     "seconds": 285
+    },
+    {
+     "epoch": 4,
+     "train_loss": 0.3644,
+     "val_macro_f1": 0.7213,
+     "val_micro_f1": 0.77,
+     "seconds": 283
+    },
+    {
+     "epoch": 5,
+     "train_loss": 0.2994,
+     "val_macro_f1": 0.7191,
+     "val_micro_f1": 0.7716,
+     "seconds": 287
+    }
+   ],
+   "best": {
+    "epoch": 4,
+    "val_macro_f1": 0.7213,
+    "val_micro_f1": 0.77
+   },
+   "val": {
+    "n": 1261,
+    "n_documents": 30,
+    "macro_f1": 0.7213,
+    "micro_f1": 0.77,
+    "accuracy": 0.77,
+    "per_role_f1": {
+     "PREAMBLE": 0.9313,
+     "FACTS": 0.7241,
+     "ISSUE": 0.8,
+     "ARGUMENT_PLAINTIFF": 0.3969,
+     "ARGUMENT_DEFENDANT": 0.5688,
+     "LAW_REFERENCE": 0.7353,
+     "ANALYSIS": 0.8417,
+     "DECISION": 0.7692,
+     "DECISION_APPEAL": 0.7241
+    },
+    "gold_support": {
+     "PREAMBLE": 195,
+     "FACTS": 253,
+     "ISSUE": 64,
+     "ARGUMENT_PLAINTIFF": 70,
+     "ARGUMENT_DEFENDANT": 109,
+     "LAW_REFERENCE": 69,
+     "ANALYSIS": 398,
+     "DECISION": 70,
+     "DECISION_APPEAL": 33
+    },
+    "pred_counts": {
+     "PREAMBLE": 198,
+     "FACTS": 258,
+     "ISSUE": 91,
+     "ARGUMENT_PLAINTIFF": 61,
+     "ARGUMENT_DEFENDANT": 109,
+     "LAW_REFERENCE": 67,
+     "ANALYSIS": 379,
+     "DECISION": 73,
+     "DECISION_APPEAL": 25
+    }
+   },
+   "test": {
+    "n": 1355,
+    "n_documents": 30,
+    "macro_f1": 0.7177,
+    "micro_f1": 0.7565,
+    "accuracy": 0.7565,
+    "per_role_f1": {
+     "PREAMBLE": 0.8945,
+     "FACTS": 0.7197,
+     "ISSUE": 0.6584,
+     "ARGUMENT_PLAINTIFF": 0.5102,
+     "ARGUMENT_DEFENDANT": 0.6629,
+     "LAW_REFERENCE": 0.7614,
+     "ANALYSIS": 0.7792,
+     "DECISION": 0.7458,
+     "DECISION_APPEAL": 0.7273
+    },
+    "gold_support": {
+     "PREAMBLE": 262,
+     "FACTS": 253,
+     "ISSUE": 118,
+     "ARGUMENT_PLAINTIFF": 48,
+     "ARGUMENT_DEFENDANT": 92,
+     "LAW_REFERENCE": 93,
+     "ANALYSIS": 376,
+     "DECISION": 74,
+     "DECISION_APPEAL": 39
+    },
+    "pred_counts": {
+     "PREAMBLE": 250,
+     "FACTS": 275,
+     "ISSUE": 125,
+     "ARGUMENT_PLAINTIFF": 50,
+     "ARGUMENT_DEFENDANT": 86,
+     "LAW_REFERENCE": 104,
+     "ANALYSIS": 335,
+     "DECISION": 103,
+     "DECISION_APPEAL": 27
+    },
+    "ci": {
+     "macro_f1": {
+      "point": 0.7177,
+      "ci_low": 0.64,
+      "ci_high": 0.7817,
+      "n_replicates": 5000,
+      "seed": 13,
+      "n_documents": 30
+     },
+     "micro_f1": {
+      "point": 0.7565,
+      "ci_low": 0.705,
+      "ci_high": 0.8145,
+      "n_replicates": 5000,
+      "seed": 13,
+      "n_documents": 30
+     }
+    }
+   }
+  },
+  "lr2e-05_seed73": {
+   "model": "m1_arabert",
+   "checkpoint": "aubmindlab/bert-base-arabertv2",
+   "lr": 2e-05,
+   "seed": 73,
+   "history": [
+    {
+     "epoch": 1,
+     "train_loss": 1.2984,
+     "val_macro_f1": 0.6584,
+     "val_micro_f1": 0.7272,
+     "seconds": 290
+    },
+    {
+     "epoch": 2,
+     "train_loss": 0.6671,
+     "val_macro_f1": 0.6923,
+     "val_micro_f1": 0.7597,
+     "seconds": 293
+    },
+    {
+     "epoch": 3,
+     "train_loss": 0.4973,
+     "val_macro_f1": 0.7134,
+     "val_micro_f1": 0.7708,
+     "seconds": 301
+    },
+    {
+     "epoch": 4,
+     "train_loss": 0.3828,
+     "val_macro_f1": 0.7098,
+     "val_micro_f1": 0.7692,
+     "seconds": 398
+    },
+    {
+     "epoch": 5,
+     "train_loss": 0.3069,
+     "val_macro_f1": 0.724,
+     "val_micro_f1": 0.7724,
+     "seconds": 307
+    }
+   ],
+   "best": {
+    "epoch": 5,
+    "val_macro_f1": 0.724,
+    "val_micro_f1": 0.7724
+   },
+   "val": {
+    "n": 1261,
+    "n_documents": 30,
+    "macro_f1": 0.724,
+    "micro_f1": 0.7724,
+    "accuracy": 0.7724,
+    "per_role_f1": {
+     "PREAMBLE": 0.9347,
+     "FACTS": 0.7054,
+     "ISSUE": 0.8244,
+     "ARGUMENT_PLAINTIFF": 0.4032,
+     "ARGUMENT_DEFENDANT": 0.6121,
+     "LAW_REFERENCE": 0.7153,
+     "ANALYSIS": 0.8502,
+     "DECISION": 0.7432,
+     "DECISION_APPEAL": 0.7273
+    },
+    "gold_support": {
+     "PREAMBLE": 195,
+     "FACTS": 253,
+     "ISSUE": 64,
+     "ARGUMENT_PLAINTIFF": 70,
+     "ARGUMENT_DEFENDANT": 109,
+     "LAW_REFERENCE": 69,
+     "ANALYSIS": 398,
+     "DECISION": 70,
+     "DECISION_APPEAL": 33
+    },
+    "pred_counts": {
+     "PREAMBLE": 203,
+     "FACTS": 263,
+     "ISSUE": 67,
+     "ARGUMENT_PLAINTIFF": 54,
+     "ARGUMENT_DEFENDANT": 123,
+     "LAW_REFERENCE": 68,
+     "ANALYSIS": 383,
+     "DECISION": 78,
+     "DECISION_APPEAL": 22
+    }
+   },
+   "test": {
+    "n": 1355,
+    "n_documents": 30,
+    "macro_f1": 0.7162,
+    "micro_f1": 0.7579,
+    "accuracy": 0.7579,
+    "per_role_f1": {
+     "PREAMBLE": 0.9101,
+     "FACTS": 0.6965,
+     "ISSUE": 0.6964,
+     "ARGUMENT_PLAINTIFF": 0.4696,
+     "ARGUMENT_DEFENDANT": 0.601,
+     "LAW_REFERENCE": 0.7553,
+     "ANALYSIS": 0.7911,
+     "DECISION": 0.8095,
+     "DECISION_APPEAL": 0.7164
+    },
+    "gold_support": {
+     "PREAMBLE": 262,
+     "FACTS": 253,
+     "ISSUE": 118,
+     "ARGUMENT_PLAINTIFF": 48,
+     "ARGUMENT_DEFENDANT": 92,
+     "LAW_REFERENCE": 93,
+     "ANALYSIS": 376,
+     "DECISION": 74,
+     "DECISION_APPEAL": 39
+    },
+    "pred_counts": {
+     "PREAMBLE": 261,
+     "FACTS": 261,
+     "ISSUE": 106,
+     "ARGUMENT_PLAINTIFF": 67,
+     "ARGUMENT_DEFENDANT": 101,
+     "LAW_REFERENCE": 95,
+     "ANALYSIS": 342,
+     "DECISION": 94,
+     "DECISION_APPEAL": 28
+    },
+    "ci": {
+     "macro_f1": {
+      "point": 0.7162,
+      "ci_low": 0.6349,
+      "ci_high": 0.7793,
+      "n_replicates": 5000,
+      "seed": 13,
+      "n_documents": 30
+     },
+     "micro_f1": {
+      "point": 0.7579,
+      "ci_low": 0.7112,
+      "ci_high": 0.8114,
+      "n_replicates": 5000,
+      "seed": 13,
+      "n_documents": 30
+     }
+    }
+   }
+  }
+ }
+}

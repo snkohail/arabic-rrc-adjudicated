@@ -1,0 +1,221 @@
+{
+ "model": "S2-B2 lexical CRF over runs of grid-adjacent eligible sentences",
+ "fixed": {
+  "algorithm": "lbfgs",
+  "max_iterations": 200,
+  "all_possible_transitions": true
+ },
+ "grid": {
+  "c1": [
+   0.05,
+   0.1,
+   0.5
+  ],
+  "c2": [
+   0.05,
+   0.1,
+   0.5
+  ]
+ },
+ "sequence_construction": "excluded (AMBIGUOUS_PROJECTION/UNLABELED) sentences break the sequence; no transition across non-adjacent sentences",
+ "sequence_stats": {
+  "train": {
+   "eligible_sentences": 6298,
+   "judgments": 137,
+   "crf_runs": 877,
+   "mean_run_length": 7.18,
+   "singleton_runs": 164
+  },
+  "val": {
+   "eligible_sentences": 1261,
+   "judgments": 30,
+   "crf_runs": 175,
+   "mean_run_length": 7.21,
+   "singleton_runs": 26
+  },
+  "test": {
+   "eligible_sentences": 1355,
+   "judgments": 30,
+   "crf_runs": 198,
+   "mean_run_length": 6.84,
+   "singleton_runs": 42
+  }
+ },
+ "features": "own-sentence lexical features + run-boundary BOS/EOS + judgment-grid position decile; label transitions learned; no neighbour text",
+ "selection_criterion": "VAL macro-F1 (ties: smaller c1, smaller c2)",
+ "table": [
+  {
+   "c1": 0.05,
+   "c2": 0.05,
+   "val_macro_f1": 0.7056,
+   "val_micro_f1": 0.751,
+   "seconds": 2
+  },
+  {
+   "c1": 0.05,
+   "c2": 0.1,
+   "val_macro_f1": 0.695,
+   "val_micro_f1": 0.751,
+   "seconds": 2
+  },
+  {
+   "c1": 0.05,
+   "c2": 0.5,
+   "val_macro_f1": 0.727,
+   "val_micro_f1": 0.7653,
+   "seconds": 2
+  },
+  {
+   "c1": 0.1,
+   "c2": 0.05,
+   "val_macro_f1": 0.6832,
+   "val_micro_f1": 0.7391,
+   "seconds": 2
+  },
+  {
+   "c1": 0.1,
+   "c2": 0.1,
+   "val_macro_f1": 0.6747,
+   "val_micro_f1": 0.732,
+   "seconds": 2
+  },
+  {
+   "c1": 0.1,
+   "c2": 0.5,
+   "val_macro_f1": 0.7242,
+   "val_micro_f1": 0.7629,
+   "seconds": 2
+  },
+  {
+   "c1": 0.5,
+   "c2": 0.05,
+   "val_macro_f1": 0.6994,
+   "val_micro_f1": 0.747,
+   "seconds": 2
+  },
+  {
+   "c1": 0.5,
+   "c2": 0.1,
+   "val_macro_f1": 0.7075,
+   "val_micro_f1": 0.7542,
+   "seconds": 2
+  },
+  {
+   "c1": 0.5,
+   "c2": 0.5,
+   "val_macro_f1": 0.7162,
+   "val_micro_f1": 0.7661,
+   "seconds": 2
+  }
+ ],
+ "chosen": {
+  "c1": 0.05,
+  "c2": 0.5,
+  "val_macro_f1": 0.727,
+  "val_micro_f1": 0.7653,
+  "seconds": 2
+ },
+ "val": {
+  "n": 1261,
+  "n_documents": 30,
+  "macro_f1": 0.727,
+  "micro_f1": 0.7653,
+  "accuracy": 0.7653,
+  "per_role_f1": {
+   "PREAMBLE": 0.9444,
+   "FACTS": 0.6856,
+   "ISSUE": 0.8667,
+   "ARGUMENT_PLAINTIFF": 0.4088,
+   "ARGUMENT_DEFENDANT": 0.52,
+   "LAW_REFERENCE": 0.6475,
+   "ANALYSIS": 0.8447,
+   "DECISION": 0.8116,
+   "DECISION_APPEAL": 0.8136
+  },
+  "gold_support": {
+   "PREAMBLE": 195,
+   "FACTS": 253,
+   "ISSUE": 64,
+   "ARGUMENT_PLAINTIFF": 70,
+   "ARGUMENT_DEFENDANT": 109,
+   "LAW_REFERENCE": 69,
+   "ANALYSIS": 398,
+   "DECISION": 70,
+   "DECISION_APPEAL": 33
+  },
+  "pred_counts": {
+   "PREAMBLE": 201,
+   "FACTS": 275,
+   "ISSUE": 56,
+   "ARGUMENT_PLAINTIFF": 67,
+   "ARGUMENT_DEFENDANT": 91,
+   "LAW_REFERENCE": 70,
+   "ANALYSIS": 407,
+   "DECISION": 68,
+   "DECISION_APPEAL": 26
+  }
+ },
+ "test": {
+  "n": 1355,
+  "n_documents": 30,
+  "macro_f1": 0.7218,
+  "micro_f1": 0.7882,
+  "accuracy": 0.7882,
+  "per_role_f1": {
+   "PREAMBLE": 0.9638,
+   "FACTS": 0.7108,
+   "ISSUE": 0.7589,
+   "ARGUMENT_PLAINTIFF": 0.241,
+   "ARGUMENT_DEFENDANT": 0.5783,
+   "LAW_REFERENCE": 0.7979,
+   "ANALYSIS": 0.8279,
+   "DECISION": 0.8533,
+   "DECISION_APPEAL": 0.7647
+  },
+  "gold_support": {
+   "PREAMBLE": 262,
+   "FACTS": 253,
+   "ISSUE": 118,
+   "ARGUMENT_PLAINTIFF": 48,
+   "ARGUMENT_DEFENDANT": 92,
+   "LAW_REFERENCE": 93,
+   "ANALYSIS": 376,
+   "DECISION": 74,
+   "DECISION_APPEAL": 39
+  },
+  "pred_counts": {
+   "PREAMBLE": 263,
+   "FACTS": 321,
+   "ISSUE": 106,
+   "ARGUMENT_PLAINTIFF": 35,
+   "ARGUMENT_DEFENDANT": 74,
+   "LAW_REFERENCE": 95,
+   "ANALYSIS": 356,
+   "DECISION": 76,
+   "DECISION_APPEAL": 29
+  },
+  "ci": {
+   "macro_f1": {
+    "point": 0.7218,
+    "ci_low": 0.6577,
+    "ci_high": 0.7807,
+    "n_replicates": 5000,
+    "seed": 13,
+    "n_documents": 30
+   },
+   "micro_f1": {
+    "point": 0.7882,
+    "ci_low": 0.7391,
+    "ci_high": 0.8485,
+    "n_replicates": 5000,
+    "seed": 13,
+    "n_documents": 30
+   }
+  }
+ },
+ "counts": {
+  "train": 6298,
+  "val": 1261,
+  "test": 1355
+ }
+}

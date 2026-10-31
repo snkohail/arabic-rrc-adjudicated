@@ -1,0 +1,821 @@
+{
+ "version": "v1",
+ "seed": 13,
+ "created_utc": "2026-09-03T15:08:40+00:00",
+ "source": "C adjudicated gold, TRAIN+VAL of split_v1 only; no TEST; no model predictions used",
+ "n_per_stratum": 20,
+ "caps": {
+  "per_judgment": 2,
+  "role_key": {
+   "1": 4,
+   "2": 6,
+   "3": 5,
+   "4": 6
+  }
+ },
+ "strata": {
+  "1": "single_role_non_nested_region",
+  "2": "multi_role_region",
+  "3": "nested_structure",
+  "4": "ambiguous_projection_sentence"
+ },
+ "candidate_pool": {
+  "1": 9254,
+  "2": 890,
+  "3": 1155,
+  "3_both_single": 965,
+  "4": 1911
+ },
+ "items": [
+  {
+   "item_id": "E4-14",
+   "stratum": 4,
+   "case_id": "C0143",
+   "begin": 24041,
+   "end": 24615,
+   "sent_idx": 38,
+   "display_order": 0
+  },
+  {
+   "item_id": "E1-09",
+   "stratum": 1,
+   "case_id": "C0170",
+   "begin": 31209,
+   "end": 31664,
+   "display_order": 1
+  },
+  {
+   "item_id": "E3-13",
+   "stratum": 3,
+   "case_id": "C0060",
+   "outer": [
+    10695,
+    15183
+   ],
+   "inner": [
+    13718,
+    14005
+   ],
+   "display_order": 2
+  },
+  {
+   "item_id": "E2-16",
+   "stratum": 2,
+   "case_id": "C0091",
+   "begin": 1654,
+   "end": 2202,
+   "display_order": 3
+  },
+  {
+   "item_id": "E4-01",
+   "stratum": 4,
+   "case_id": "C0004",
+   "begin": 30766,
+   "end": 31151,
+   "sent_idx": 77,
+   "display_order": 4
+  },
+  {
+   "item_id": "E2-20",
+   "stratum": 2,
+   "case_id": "C0058",
+   "begin": 14353,
+   "end": 14872,
+   "display_order": 5
+  },
+  {
+   "item_id": "E3-10",
+   "stratum": 3,
+   "case_id": "C0183",
+   "outer": [
+    1283,
+    9249
+   ],
+   "inner": [
+    1505,
+    4329
+   ],
+   "display_order": 6
+  },
+  {
+   "item_id": "E3-06",
+   "stratum": 3,
+   "case_id": "C0185",
+   "outer": [
+    3189,
+    7390
+   ],
+   "inner": [
+    5195,
+    5270
+   ],
+   "display_order": 7
+  },
+  {
+   "item_id": "E4-13",
+   "stratum": 4,
+   "case_id": "C0146",
+   "begin": 4964,
+   "end": 5387,
+   "sent_idx": 28,
+   "display_order": 8
+  },
+  {
+   "item_id": "E1-05",
+   "stratum": 1,
+   "case_id": "C0035",
+   "begin": 119,
+   "end": 572,
+   "display_order": 9
+  },
+  {
+   "item_id": "E4-05",
+   "stratum": 4,
+   "case_id": "C0119",
+   "begin": 15703,
+   "end": 16255,
+   "sent_idx": 39,
+   "display_order": 10
+  },
+  {
+   "item_id": "E1-15",
+   "stratum": 1,
+   "case_id": "C0018",
+   "begin": 1841,
+   "end": 1951,
+   "display_order": 11
+  },
+  {
+   "item_id": "E1-07",
+   "stratum": 1,
+   "case_id": "C0155",
+   "begin": 2188,
+   "end": 2252,
+   "display_order": 12
+  },
+  {
+   "item_id": "E1-04",
+   "stratum": 1,
+   "case_id": "C0200",
+   "begin": 3585,
+   "end": 3687,
+   "display_order": 13
+  },
+  {
+   "item_id": "E4-10",
+   "stratum": 4,
+   "case_id": "C0092",
+   "begin": 19289,
+   "end": 19539,
+   "sent_idx": 101,
+   "display_order": 14
+  },
+  {
+   "item_id": "E2-08",
+   "stratum": 2,
+   "case_id": "C0072",
+   "begin": 1039,
+   "end": 1243,
+   "display_order": 15
+  },
+  {
+   "item_id": "E4-16",
+   "stratum": 4,
+   "case_id": "C0175",
+   "begin": 3545,
+   "end": 3812,
+   "sent_idx": 20,
+   "display_order": 16
+  },
+  {
+   "item_id": "E1-06",
+   "stratum": 1,
+   "case_id": "C0036",
+   "begin": 22183,
+   "end": 22289,
+   "display_order": 17
+  },
+  {
+   "item_id": "E3-03",
+   "stratum": 3,
+   "case_id": "C0058",
+   "outer": [
+    10211,
+    16193
+   ],
+   "inner": [
+    12539,
+    12940
+   ],
+   "display_order": 18
+  },
+  {
+   "item_id": "E2-11",
+   "stratum": 2,
+   "case_id": "C0110",
+   "begin": 2,
+   "end": 534,
+   "display_order": 19
+  },
+  {
+   "item_id": "E3-17",
+   "stratum": 3,
+   "case_id": "C0109",
+   "outer": [
+    9467,
+    20840
+   ],
+   "inner": [
+    17402,
+    17505
+   ],
+   "display_order": 20
+  },
+  {
+   "item_id": "E4-18",
+   "stratum": 4,
+   "case_id": "C0144",
+   "begin": 2135,
+   "end": 2252,
+   "sent_idx": 16,
+   "display_order": 21
+  },
+  {
+   "item_id": "E3-02",
+   "stratum": 3,
+   "case_id": "C0125",
+   "outer": [
+    4110,
+    74831
+   ],
+   "inner": [
+    27689,
+    28897
+   ],
+   "display_order": 22
+  },
+  {
+   "item_id": "E2-06",
+   "stratum": 2,
+   "case_id": "C0186",
+   "begin": 5163,
+   "end": 5359,
+   "display_order": 23
+  },
+  {
+   "item_id": "E1-10",
+   "stratum": 1,
+   "case_id": "C0184",
+   "begin": 6143,
+   "end": 7778,
+   "display_order": 24
+  },
+  {
+   "item_id": "E1-03",
+   "stratum": 1,
+   "case_id": "C0127",
+   "begin": 8900,
+   "end": 9687,
+   "display_order": 25
+  },
+  {
+   "item_id": "E3-15",
+   "stratum": 3,
+   "case_id": "C0071",
+   "outer": [
+    5874,
+    12690
+   ],
+   "inner": [
+    7872,
+    8240
+   ],
+   "display_order": 26
+  },
+  {
+   "item_id": "E1-17",
+   "stratum": 1,
+   "case_id": "C0032",
+   "begin": 34608,
+   "end": 34700,
+   "display_order": 27
+  },
+  {
+   "item_id": "E2-19",
+   "stratum": 2,
+   "case_id": "C0164",
+   "begin": 1629,
+   "end": 2214,
+   "display_order": 28
+  },
+  {
+   "item_id": "E4-20",
+   "stratum": 4,
+   "case_id": "C0120",
+   "begin": 10333,
+   "end": 10685,
+   "sent_idx": 28,
+   "display_order": 29
+  },
+  {
+   "item_id": "E1-16",
+   "stratum": 1,
+   "case_id": "C0013",
+   "begin": 383,
+   "end": 495,
+   "display_order": 30
+  },
+  {
+   "item_id": "E2-14",
+   "stratum": 2,
+   "case_id": "C0125",
+   "begin": 70504,
+   "end": 70725,
+   "display_order": 31
+  },
+  {
+   "item_id": "E3-01",
+   "stratum": 3,
+   "case_id": "C0144",
+   "outer": [
+    1138,
+    3571
+   ],
+   "inner": [
+    1676,
+    1967
+   ],
+   "display_order": 32
+  },
+  {
+   "item_id": "E1-01",
+   "stratum": 1,
+   "case_id": "C0041",
+   "begin": 20324,
+   "end": 20422,
+   "display_order": 33
+  },
+  {
+   "item_id": "E1-02",
+   "stratum": 1,
+   "case_id": "C0062",
+   "begin": 15318,
+   "end": 15517,
+   "display_order": 34
+  },
+  {
+   "item_id": "E4-07",
+   "stratum": 4,
+   "case_id": "C0064",
+   "begin": 652,
+   "end": 1698,
+   "sent_idx": 7,
+   "display_order": 35
+  },
+  {
+   "item_id": "E1-12",
+   "stratum": 1,
+   "case_id": "C0184",
+   "begin": 15646,
+   "end": 16024,
+   "display_order": 36
+  },
+  {
+   "item_id": "E3-14",
+   "stratum": 3,
+   "case_id": "C0152",
+   "outer": [
+    5047,
+    14129
+   ],
+   "inner": [
+    10156,
+    10243
+   ],
+   "display_order": 37
+  },
+  {
+   "item_id": "E3-05",
+   "stratum": 3,
+   "case_id": "C0176",
+   "outer": [
+    12708,
+    14583
+   ],
+   "inner": [
+    14304,
+    14568
+   ],
+   "display_order": 38
+  },
+  {
+   "item_id": "E1-20",
+   "stratum": 1,
+   "case_id": "C0049",
+   "begin": 40,
+   "end": 145,
+   "display_order": 39
+  },
+  {
+   "item_id": "E4-19",
+   "stratum": 4,
+   "case_id": "C0093",
+   "begin": 6414,
+   "end": 6672,
+   "sent_idx": 27,
+   "display_order": 40
+  },
+  {
+   "item_id": "E2-12",
+   "stratum": 2,
+   "case_id": "C0040",
+   "begin": 16834,
+   "end": 16947,
+   "display_order": 41
+  },
+  {
+   "item_id": "E4-12",
+   "stratum": 4,
+   "case_id": "C0176",
+   "begin": 22153,
+   "end": 22345,
+   "sent_idx": 94,
+   "display_order": 42
+  },
+  {
+   "item_id": "E4-03",
+   "stratum": 4,
+   "case_id": "C0110",
+   "begin": 2176,
+   "end": 2199,
+   "sent_idx": 8,
+   "display_order": 43
+  },
+  {
+   "item_id": "E2-05",
+   "stratum": 2,
+   "case_id": "C0084",
+   "begin": 3846,
+   "end": 9551,
+   "display_order": 44
+  },
+  {
+   "item_id": "E4-11",
+   "stratum": 4,
+   "case_id": "C0152",
+   "begin": 18214,
+   "end": 18445,
+   "sent_idx": 60,
+   "display_order": 45
+  },
+  {
+   "item_id": "E3-09",
+   "stratum": 3,
+   "case_id": "C0004",
+   "outer": [
+    26245,
+    32640
+   ],
+   "inner": [
+    31881,
+    32148
+   ],
+   "display_order": 46
+  },
+  {
+   "item_id": "E2-01",
+   "stratum": 2,
+   "case_id": "C0008",
+   "begin": 8424,
+   "end": 11347,
+   "display_order": 47
+  },
+  {
+   "item_id": "E1-18",
+   "stratum": 1,
+   "case_id": "C0008",
+   "begin": 34041,
+   "end": 34137,
+   "display_order": 48
+  },
+  {
+   "item_id": "E3-16",
+   "stratum": 3,
+   "case_id": "C0142",
+   "outer": [
+    17690,
+    23592
+   ],
+   "inner": [
+    20265,
+    20810
+   ],
+   "display_order": 49
+  },
+  {
+   "item_id": "E2-18",
+   "stratum": 2,
+   "case_id": "C0081",
+   "begin": 950,
+   "end": 1084,
+   "display_order": 50
+  },
+  {
+   "item_id": "E4-09",
+   "stratum": 4,
+   "case_id": "C0073",
+   "begin": 2231,
+   "end": 2432,
+   "sent_idx": 15,
+   "display_order": 51
+  },
+  {
+   "item_id": "E2-17",
+   "stratum": 2,
+   "case_id": "C0115",
+   "begin": 4629,
+   "end": 5140,
+   "display_order": 52
+  },
+  {
+   "item_id": "E1-19",
+   "stratum": 1,
+   "case_id": "C0041",
+   "begin": 32410,
+   "end": 32511,
+   "display_order": 53
+  },
+  {
+   "item_id": "E4-15",
+   "stratum": 4,
+   "case_id": "C0084",
+   "begin": 27476,
+   "end": 27744,
+   "sent_idx": 93,
+   "display_order": 54
+  },
+  {
+   "item_id": "E3-12",
+   "stratum": 3,
+   "case_id": "C0143",
+   "outer": [
+    15459,
+    30118
+   ],
+   "inner": [
+    19180,
+    19469
+   ],
+   "display_order": 55
+  },
+  {
+   "item_id": "E1-11",
+   "stratum": 1,
+   "case_id": "C0024",
+   "begin": 5198,
+   "end": 5308,
+   "display_order": 56
+  },
+  {
+   "item_id": "E2-13",
+   "stratum": 2,
+   "case_id": "C0182",
+   "begin": 24969,
+   "end": 25944,
+   "display_order": 57
+  },
+  {
+   "item_id": "E2-10",
+   "stratum": 2,
+   "case_id": "C0084",
+   "begin": 10910,
+   "end": 11290,
+   "display_order": 58
+  },
+  {
+   "item_id": "E2-04",
+   "stratum": 2,
+   "case_id": "C0175",
+   "begin": 3348,
+   "end": 3541,
+   "display_order": 59
+  },
+  {
+   "item_id": "E4-17",
+   "stratum": 4,
+   "case_id": "C0140",
+   "begin": 9961,
+   "end": 10160,
+   "sent_idx": 52,
+   "display_order": 60
+  },
+  {
+   "item_id": "E1-08",
+   "stratum": 1,
+   "case_id": "C0015",
+   "begin": 43087,
+   "end": 43169,
+   "display_order": 61
+  },
+  {
+   "item_id": "E2-03",
+   "stratum": 2,
+   "case_id": "C0099",
+   "begin": 2051,
+   "end": 2340,
+   "display_order": 62
+  },
+  {
+   "item_id": "E4-06",
+   "stratum": 4,
+   "case_id": "C0185",
+   "begin": 43509,
+   "end": 44389,
+   "sent_idx": 81,
+   "display_order": 63
+  },
+  {
+   "item_id": "E2-09",
+   "stratum": 2,
+   "case_id": "C0136",
+   "begin": 1876,
+   "end": 2027,
+   "display_order": 64
+  },
+  {
+   "item_id": "E2-02",
+   "stratum": 2,
+   "case_id": "C0060",
+   "begin": 7323,
+   "end": 7760,
+   "display_order": 65
+  },
+  {
+   "item_id": "E3-11",
+   "stratum": 3,
+   "case_id": "C0185",
+   "outer": [
+    45804,
+    46603
+   ],
+   "inner": [
+    46033,
+    46097
+   ],
+   "display_order": 66
+  },
+  {
+   "item_id": "E4-02",
+   "stratum": 4,
+   "case_id": "C0009",
+   "begin": 10432,
+   "end": 10596,
+   "sent_idx": 24,
+   "display_order": 67
+  },
+  {
+   "item_id": "E2-07",
+   "stratum": 2,
+   "case_id": "C0020",
+   "begin": 3403,
+   "end": 3445,
+   "display_order": 68
+  },
+  {
+   "item_id": "E3-04",
+   "stratum": 3,
+   "case_id": "C0124",
+   "outer": [
+    596,
+    4179
+   ],
+   "inner": [
+    2638,
+    3099
+   ],
+   "display_order": 69
+  },
+  {
+   "item_id": "E1-13",
+   "stratum": 1,
+   "case_id": "C0097",
+   "begin": 528,
+   "end": 619,
+   "display_order": 70
+  },
+  {
+   "item_id": "E1-14",
+   "stratum": 1,
+   "case_id": "C0038",
+   "begin": 17122,
+   "end": 17232,
+   "display_order": 71
+  },
+  {
+   "item_id": "E3-18",
+   "stratum": 3,
+   "case_id": "C0124",
+   "outer": [
+    1660,
+    2236
+   ],
+   "inner": [
+    1660,
+    1999
+   ],
+   "display_order": 72
+  },
+  {
+   "item_id": "E3-19",
+   "stratum": 3,
+   "case_id": "C0155",
+   "outer": [
+    2313,
+    9049
+   ],
+   "inner": [
+    7325,
+    7641
+   ],
+   "display_order": 73
+  },
+  {
+   "item_id": "E4-08",
+   "stratum": 4,
+   "case_id": "C0089",
+   "begin": 4465,
+   "end": 4758,
+   "sent_idx": 28,
+   "display_order": 74
+  },
+  {
+   "item_id": "E3-20",
+   "stratum": 3,
+   "case_id": "C0143",
+   "outer": [
+    15459,
+    30118
+   ],
+   "inner": [
+    29427,
+    30118
+   ],
+   "display_order": 75
+  },
+  {
+   "item_id": "E4-04",
+   "stratum": 4,
+   "case_id": "C0162",
+   "begin": 9014,
+   "end": 9189,
+   "sent_idx": 44,
+   "display_order": 76
+  },
+  {
+   "item_id": "E3-08",
+   "stratum": 3,
+   "case_id": "C0168",
+   "outer": [
+    11127,
+    12872
+   ],
+   "inner": [
+    12739,
+    12872
+   ],
+   "display_order": 77
+  },
+  {
+   "item_id": "E2-15",
+   "stratum": 2,
+   "case_id": "C0001",
+   "begin": 9489,
+   "end": 10705,
+   "display_order": 78
+  },
+  {
+   "item_id": "E3-07",
+   "stratum": 3,
+   "case_id": "C0144",
+   "outer": [
+    1268,
+    1490
+   ],
+   "inner": [
+    1268,
+    1337
+   ],
+   "display_order": 79
+  }
+ ],
+ "judgments_per_stratum": {
+  "1": 18,
+  "2": 19,
+  "3": 16,
+  "4": 20
+ },
+ "items_sha256": "bc9e6fada05eca081170c3c041791872085d1569447ced6808eba04185cfeb63",
+ "key_sha256": "05427e7327c3fa4242356fcb76de03aa5bb27a6f0a5dc62fbcaafb3a769f6f40",
+ "blind": "interface shows Arabic context and highlighted span(s) only; no A/B/C labels, provenance, or predictions",
+ "manifest_sha256": "f90a2f2621793abb9bdb7e42f7490e0dc2e4b992bd8345a9e635a9b105c08e7c"
+}

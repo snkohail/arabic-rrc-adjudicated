@@ -1,0 +1,161 @@
+{
+ "normalization": {
+  "version": "cnorm_v1",
+  "params": {
+   "version": "cnorm_v1",
+   "min_span_chars": 5,
+   "near_identical_max_len_diff": 20
+  },
+  "rows_before": 14726,
+  "rows_after": 14686,
+  "dropped_R1_tiny": 29,
+  "dropped_R2_near_identical": 11,
+  "judgments_touched": 26,
+  "rules": {
+   "R1_tiny": "drop rhetorical row if (end - begin) < 5 characters or the span contains no Unicode letter (regex [^\\W\\d_])",
+   "R2_near_identical": "for two rows with the same label where one span contains the other and the length difference is <= 20 characters, drop the inner (shorter) row and keep the outer; R1 runs before R2",
+   "not_applied": "labels duplicating an enclosing region's label are kept as adjudicated"
+  },
+  "private_row_log": "<data_dir>/audit/c_normalization_log.json"
+ },
+ "A_integrity": {
+  "c_source": "<annotation_root>/Annotator_C",
+  "n_cases": 200,
+  "n_complete": 200,
+  "n_with_DEFER": 0,
+  "validator_pass": 200,
+  "validator_fail": 0,
+  "validator_status": "PASS",
+  "failing_cases": {},
+  "warnings_total": 50,
+  "cases_with_crossing_regions": 50,
+  "provenance": {
+   "flags_trusted": false,
+   "confirmation_basis": "declared gold status: Annotator_C is treated as the human-adjudicated final gold; every multi-role region is taken as an explicit adjudicator decision. Metadata flags left by the annotation tool are not used as evidence.",
+   "confirmation_by_flags_alone": false,
+   "row_provenance_counts": {
+    "llm_adjudicated": 9534,
+    "agreed_A_and_B": 3575,
+    "unadjudicated_B": 387,
+    "unadjudicated_A": 1169,
+    "agreed_A_and_B_restored": 21
+   },
+   "row_candidate_source_counts": {
+    "B": 5275,
+    "A": 2083,
+    "A+B": 2072,
+    "UNION": 104
+   },
+   "file_merge_metadata_counts": {
+    "{'method': 'LLM adjudication of A/B conflicts', 'NOT_human_adjudicated_gold': True}": 200
+   },
+   "cases_declaring_NOT_human_adjudicated_gold": 200,
+   "multi_role_regions": 1073,
+   "multi_role_regions_all_rows_reviewed": 905,
+   "multi_role_regions_with_unreviewed_rows": 131,
+   "multi_role_regions_with_union_marker": 37,
+   "multi_role_regions_missing_provenance": 0,
+   "rows_with_union_marker": 104,
+   "every_multi_role_region_is_explicit_adjudicator_decision": true
+  }
+ },
+ "B_gold_size": {
+  "raw_rhetorical_rows": 14686,
+  "unique_span_regions": 13574
+ },
+ "C_role_counts": {
+  "rows": {
+   "PREAMBLE": 747,
+   "FACTS": 3452,
+   "ISSUE": 1445,
+   "ARGUMENT_PLAINTIFF": 592,
+   "ARGUMENT_DEFENDANT": 1039,
+   "LAW_REFERENCE": 1864,
+   "ANALYSIS": 4564,
+   "DECISION": 652,
+   "DECISION_APPEAL": 331
+  },
+  "regions_carrying_role": {
+   "PREAMBLE": 747,
+   "FACTS": 3452,
+   "ISSUE": 1445,
+   "ARGUMENT_PLAINTIFF": 592,
+   "ARGUMENT_DEFENDANT": 1039,
+   "LAW_REFERENCE": 1864,
+   "ANALYSIS": 4564,
+   "DECISION": 652,
+   "DECISION_APPEAL": 331
+  }
+ },
+ "D_multi_role": {
+  "regions_multi": 1073,
+  "pct_regions_multi": 7.9,
+  "judgments_with_multi": 184,
+  "by_role_count": {
+   "2": 1047,
+   "3": 18,
+   ">3": 8
+  },
+  "top_combinations": [
+   [
+    "ANALYSIS+LAW_REFERENCE",
+    564
+   ],
+   [
+    "FACTS+ISSUE",
+    138
+   ],
+   [
+    "ARGUMENT_PLAINTIFF+FACTS",
+    48
+   ],
+   [
+    "ARGUMENT_DEFENDANT+FACTS",
+    44
+   ],
+   [
+    "ISSUE+PREAMBLE",
+    41
+   ],
+   [
+    "ANALYSIS+FACTS",
+    36
+   ],
+   [
+    "FACTS+LAW_REFERENCE",
+    33
+   ],
+   [
+    "ANALYSIS+ISSUE",
+    30
+   ],
+   [
+    "ARGUMENT_DEFENDANT+ARGUMENT_PLAINTIFF",
+    16
+   ],
+   [
+    "ANALYSIS+ARGUMENT_PLAINTIFF",
+    14
+   ]
+  ]
+ },
+ "E_nesting": {
+  "nested_relations": 1832,
+  "judgments_with_nesting": 120,
+  "same_role_nested_relations": 622,
+  "regions_participating_in_nesting": 1870
+ },
+ "F_length_arabert_tokens": {
+  "tokenizer": "aubmindlab/bert-base-arabertv2",
+  "note": "raw text, no Farasa pre-segmentation, no special tokens",
+  "median": 35.0,
+  "p95": 289.34999999999854,
+  "max": 21432,
+  "n_over_limit": 319,
+  "pct_over_limit": 2.35,
+  "limit": 510
+ },
+ "excluded_from_modeling": {
+  "C0047": "exact duplicate text of C0019 (identical sha256); C0019 retained as the canonical copy"
+ }
+}
